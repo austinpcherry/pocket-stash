@@ -6,7 +6,7 @@ A=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(A)
 VOICES={'bella':1,'michael':6}
 AUDIO_VERSION=1  # bump only if you re-render an existing narration line, so devices re-download audio
-TEMPLATES={'list','chat','quad','bars','split','big','rem'}
+TEMPLATES={'list','chat','quad','bars','split','big','rem','act'}
 LABELS=['Setup','Problem','Apply','Result']
 tpl=open('src/template.html',encoding='utf-8').read()
 TOPICS=set(re.findall(r"(?:'([^']+)'|(\w+)):'#[0-9A-Fa-f]{6}'",re.search(r"var TOPICS=\{(.*?)\};",tpl,re.S).group(1)))
@@ -66,7 +66,7 @@ if '--check' in sys.argv: sys.exit(0)
 # bundle
 data=[{k:v for k,v in L.items() if k!='n'} for L in lessons]
 blob=json.dumps(data,ensure_ascii=False,separators=(',',':')).replace('</','<\\/')
-page=tpl.replace('/*__LESSONS__*/[]',blob,1)
+page=tpl.replace('/*__ACT__*/',open('src/act.js',encoding='utf-8').read(),1).replace('/*__LESSONS__*/[]',blob,1)
 head,rest=page.split('</style>',1)
 meta='<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width,initial-scale=1">\n<meta name="theme-color" content="#14263A">\n<link rel="manifest" href="manifest.webmanifest">\n<link rel="icon" href="icon-192.png">\n<link rel="apple-touch-icon" href="icon-192.png">\n'
 reg="<script>if('serviceWorker' in navigator){window.addEventListener('load',function(){try{navigator.serviceWorker.register('sw.js')}catch(e){}})}</script>\n"

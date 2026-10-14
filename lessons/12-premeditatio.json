@@ -12,80 +12,231 @@
  "who": "Priya, preparing a live demo for her company's board.",
  "scenes": [
   {
-   "l": "Setup",
-   "t": "list",
-   "cap": "Priya's plan for Tuesday",
-   "items": [
-    {
-     "x": "Live demo of the new dashboard"
-    },
-    {
-     "x": "Live data, live internet"
-    },
-    {
-     "x": "Ten board members watching"
+   "cap": "Tuesday, the board",
+   "actors": {
+    "pri": {
+     "x": 30,
+     "pose": "hold",
+     "col": "mint"
     }
+   },
+   "props": {
+    "scr": {
+     "k": "screen",
+     "x": 64,
+     "y": 104
+    },
+    "bl": {
+     "k": "chip",
+     "x": 64,
+     "y": 42,
+     "text": "Live demo",
+     "vis": 0
+    }
+   },
+   "ev": [
+    [
+     0.15,
+     "bl",
+     "show"
+    ],
+    [
+     0.4,
+     "pri",
+     "say",
+     "The plan is perfect."
+    ],
+    [
+     0.7,
+     "pri",
+     "pose",
+     "cheer"
+    ]
    ],
+   "l": "Setup",
+   "t": "act",
    "nar": "Priya will demo a new dashboard live to the board on Tuesday. On paper, the plan looks perfect."
   },
   {
-   "l": "Problem",
-   "t": "list",
-   "cap": "What nobody planned for",
-   "items": [
-    {
-     "x": "The Wi-Fi drops mid-demo",
-     "s": "bad"
-    },
-    {
-     "x": "The live data will not load",
-     "s": "bad"
-    },
-    {
-     "x": "No backup, long silence",
-     "s": "bad"
+   "cap": "No plan B",
+   "actors": {
+    "pri": {
+     "x": 30,
+     "pose": "stand",
+     "col": "mint"
     }
+   },
+   "props": {
+    "scr": {
+     "k": "screen",
+     "x": 64,
+     "y": 104
+    },
+    "wf": {
+     "k": "wifi",
+     "x": 74,
+     "y": 36,
+     "off": 1,
+     "vis": 0
+    }
+   },
+   "ev": [
+    [
+     0.15,
+     "wf",
+     "show"
+    ],
+    [
+     0.2,
+     "pri",
+     "pose",
+     "frozen"
+    ],
+    [
+     0.2,
+     "pri",
+     "face",
+     -0.8,
+     0,
+     1
+    ],
+    [
+     0.4,
+     "pri",
+     "say",
+     "...",
+     "bad"
+    ],
+    [
+     0.65,
+     "*",
+     "banner",
+     "Silence fills the room",
+     "bad"
+    ]
    ],
+   "l": "Problem",
+   "t": "act",
    "nar": "Most people stop there. If the Wi-Fi drops or the data fails, they freeze, and a long silence fills the room."
   },
   {
-   "l": "Apply",
-   "t": "list",
-   "cap": "Rehearse the failures",
-   "items": [
-    {
-     "x": "Wi-Fi drops",
-     "y": "Offline recording ready"
-    },
-    {
-     "x": "Data fails",
-     "y": "Screenshots saved"
-    },
-    {
-     "x": "Laptop dies",
-     "y": "Second laptop charged"
+   "cap": "Rehearse the failure",
+   "actors": {
+    "pri": {
+     "x": 30,
+     "pose": "think",
+     "col": "mint"
     }
+   },
+   "props": {
+    "c1": {
+     "k": "chip",
+     "x": 64,
+     "y": 62,
+     "text": "Wi-Fi drops: recording",
+     "tone": "good",
+     "vis": 0
+    },
+    "c2": {
+     "k": "chip",
+     "x": 64,
+     "y": 74,
+     "text": "Data fails: sample file",
+     "tone": "good",
+     "vis": 0
+    },
+    "c3": {
+     "k": "chip",
+     "x": 64,
+     "y": 86,
+     "text": "Slides crash: PDF",
+     "tone": "good",
+     "vis": 0
+    }
+   },
+   "ev": [
+    [
+     0.1,
+     "pri",
+     "think",
+     "What could go wrong?"
+    ],
+    [
+     0.35,
+     "c1",
+     "show"
+    ],
+    [
+     0.5,
+     "c2",
+     "show"
+    ],
+    [
+     0.65,
+     "c3",
+     "show"
+    ]
    ],
+   "l": "Apply",
+   "t": "act",
    "nar": "So Priya does what Seneca advised. She imagines it going wrong ahead of time, and prepares an answer to each failure."
   },
   {
-   "l": "Result",
-   "t": "list",
-   "cap": "Tuesday, minute six",
-   "items": [
-    {
-     "x": "The Wi-Fi drops",
-     "s": "bad"
-    },
-    {
-     "x": "She plays the offline recording",
-     "s": "done"
-    },
-    {
-     "x": "The board never notices",
-     "s": "done"
+   "cap": "Minute six",
+   "actors": {
+    "pri": {
+     "x": 30,
+     "pose": "point",
+     "col": "mint",
+     "face": [
+      0.9,
+      0,
+      1
+     ]
     }
+   },
+   "props": {
+    "scr": {
+     "k": "screen",
+     "x": 64,
+     "y": 104
+    },
+    "wf": {
+     "k": "wifi",
+     "x": 74,
+     "y": 36,
+     "off": 1
+    },
+    "ck": {
+     "k": "check",
+     "x": 56,
+     "y": 50,
+     "vis": 0
+    }
+   },
+   "ev": [
+    [
+     0.1,
+     "pri",
+     "say",
+     "Wi-Fi? Playing the recording.",
+     "good"
+    ],
+    [
+     0.45,
+     "ck",
+     "show"
+    ],
+    [
+     0.7,
+     "*",
+     "banner",
+     "It already happened in her mind",
+     "good"
+    ]
    ],
+   "l": "Result",
+   "t": "act",
    "nar": "At minute six, the Wi-Fi drops. She calmly plays the recording, and the board never notices. The failure had already happened in her mind."
   }
  ]

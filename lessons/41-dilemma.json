@@ -12,79 +12,247 @@
  "who": "Rae and Jo, roommates who both skip the dishes.",
  "scenes": [
   {
-   "t": "list",
-   "cap": "Rae and Jo's choice, every night",
-   "items": [
-    {
-     "x": "Washing up costs 15 minutes"
+   "cap": "Rae and Jo",
+   "actors": {
+    "rae": {
+     "x": 22,
+     "pose": "stand",
+     "col": "sky"
     },
-    {
-     "x": "Skipping is free, if the other washes"
-    },
-    {
-     "x": "Both skip: a messy kitchen"
+    "jo": {
+     "x": 64,
+     "pose": "stand",
+     "f": -1,
+     "col": "rose"
     }
+   },
+   "props": {
+    "sink": {
+     "k": "sink",
+     "x": 43,
+     "y": 104
+    },
+    "d": {
+     "k": "dishes",
+     "x": 43,
+     "y": 92,
+     "n": 4
+    }
+   },
+   "ev": [
+    [
+     0.1,
+     "rae",
+     "say",
+     "Washing: 15 min"
+    ],
+    [
+     0.45,
+     "jo",
+     "say",
+     "Skipping: free!"
+    ],
+    [
+     0.75,
+     "rae",
+     "pose",
+     "shrug"
+    ]
    ],
    "l": "Setup",
+   "t": "act",
    "nar": "Rae and Jo share a kitchen. Washing up costs fifteen minutes. Skipping is free, as long as the other person washes."
   },
   {
-   "t": "split",
-   "blocks": [
-    {
-     "h": "Rae thinks",
-     "tone": "bad",
-     "items": [
-      "If Jo washes, I skip",
-      "If Jo skips, I skip too"
-     ]
+   "cap": "Both reason alike",
+   "actors": {
+    "rae": {
+     "x": 22,
+     "pose": "think",
+     "col": "sky"
     },
-    {
-     "h": "Jo thinks the same",
-     "tone": "bad",
-     "items": [
-      "Skipping always wins"
-     ]
+    "jo": {
+     "x": 64,
+     "pose": "think",
+     "f": -1,
+     "col": "rose"
     }
+   },
+   "props": {
+    "sink": {
+     "k": "sink",
+     "x": 43,
+     "y": 104
+    },
+    "d": {
+     "k": "dishes",
+     "x": 43,
+     "y": 92,
+     "n": 6
+    }
+   },
+   "ev": [
+    [
+     0.05,
+     "rae",
+     "think",
+     "Jo will wash"
+    ],
+    [
+     0.15,
+     "jo",
+     "think",
+     "Rae will wash"
+    ],
+    [
+     0.45,
+     "rae",
+     "pose",
+     "slump"
+    ],
+    [
+     0.45,
+     "jo",
+     "pose",
+     "slump"
+    ],
+    [
+     0.5,
+     "*",
+     "banner",
+     "Both skip. Mess.",
+     "bad"
+    ]
    ],
    "l": "Problem",
+   "t": "act",
    "nar": "Whatever Jo does, Rae is better off skipping, and Jo reasons the same. So both skip, and the kitchen is a mess, which is worse for both than sharing the work."
   },
   {
-   "t": "list",
    "cap": "Change the payoffs",
-   "items": [
-    {
-     "x": "A simple rota on the fridge"
+   "actors": {
+    "rae": {
+     "x": 22,
+     "pose": "stand",
+     "col": "sky"
     },
-    {
-     "x": "Whoever skips owes a coffee"
-    },
-    {
-     "x": "Dishes stay visible, not hidden"
+    "jo": {
+     "x": 64,
+     "pose": "stand",
+     "f": -1,
+     "col": "rose"
     }
+   },
+   "props": {
+    "rota": {
+     "k": "board",
+     "x": 43,
+     "lines": [
+      "Dish rota",
+      "Mon  Rae",
+      "Tue  Jo",
+      "Skip = coffee"
+     ],
+     "vis": 0,
+     "y": 104
+    },
+    "cup": {
+     "k": "cup",
+     "x": 32,
+     "y": 85,
+     "vis": 0
+    }
+   },
+   "ev": [
+    [
+     0.05,
+     "rae",
+     "pose",
+     "point"
+    ],
+    [
+     0.1,
+     "rota",
+     "show"
+    ],
+    [
+     0.5,
+     "jo",
+     "pose",
+     "nod"
+    ],
+    [
+     0.6,
+     "cup",
+     "show"
+    ],
+    [
+     0.65,
+     "*",
+     "banner",
+     "Skip? Buy coffee."
+    ]
    ],
    "l": "Apply",
+   "t": "act",
    "nar": "Game theory calls this the prisoner's dilemma. The fix is to change the payoffs. They post a rota, and whoever skips owes a coffee."
   },
   {
-   "t": "list",
-   "cap": "A month later",
-   "items": [
-    {
-     "x": "Kitchen clean most nights",
-     "s": "done"
+   "cap": "A week later",
+   "actors": {
+    "rae": {
+     "x": 22,
+     "pose": "cheer",
+     "col": "sky",
+     "face": [
+      0.9,
+      0,
+      1
+     ]
     },
-    {
-     "x": "No more resentment",
-     "s": "done"
-    },
-    {
-     "x": "Skipping is rare, and owned up to",
-     "s": "done"
+    "jo": {
+     "x": 64,
+     "pose": "wave",
+     "f": -1,
+     "col": "rose",
+     "face": [
+      0.9,
+      0,
+      1
+     ]
     }
+   },
+   "props": {
+    "k": {
+     "k": "check",
+     "x": 43,
+     "y": 50,
+     "vis": 0
+    }
+   },
+   "ev": [
+    [
+     0.15,
+     "k",
+     "show"
+    ],
+    [
+     0.4,
+     "rae",
+     "say",
+     "Kitchen is clean!",
+     "good"
+    ],
+    [
+     0.7,
+     "*",
+     "banner",
+     "Cooperation pays.",
+     "good"
+    ]
    ],
    "l": "Result",
+   "t": "act",
    "nar": "The kitchen stays clean, the resentment fades, and skipping becomes rare. Cooperation now pays."
   }
  ]

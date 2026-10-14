@@ -12,88 +12,312 @@
  "who": "Leo, a salesperson waiting on a client's decision.",
  "scenes": [
   {
-   "l": "Setup",
-   "t": "list",
-   "cap": "On Leo's mind before Friday",
-   "items": [
-    {
-     "x": "The client's decision"
-    },
-    {
-     "x": "Whether budgets get cut"
-    },
-    {
-     "x": "How good his demo is"
-    },
-    {
-     "x": "His follow-up email"
+   "cap": "Leo, before Friday",
+   "actors": {
+    "leo": {
+     "x": 43,
+     "pose": "think"
     }
+   },
+   "props": {
+    "a": {
+     "k": "chip",
+     "x": 20,
+     "y": 58,
+     "text": "Client decides?",
+     "vis": 0
+    },
+    "b": {
+     "k": "chip",
+     "x": 66,
+     "y": 50,
+     "text": "Budget cuts?",
+     "vis": 0
+    },
+    "c": {
+     "k": "chip",
+     "x": 20,
+     "y": 38,
+     "text": "My demo",
+     "vis": 0
+    },
+    "d": {
+     "k": "chip",
+     "x": 66,
+     "y": 30,
+     "text": "My follow-up",
+     "vis": 0
+    }
+   },
+   "ev": [
+    [
+     0.05,
+     "a",
+     "show"
+    ],
+    [
+     0.25,
+     "b",
+     "show"
+    ],
+    [
+     0.5,
+     "c",
+     "show"
+    ],
+    [
+     0.7,
+     "d",
+     "show"
+    ]
    ],
+   "l": "Setup",
+   "t": "act",
    "nar": "Leo has a big pitch on Friday. His mind is full of things: the client's decision, the budget, his demo, and his follow-up."
   },
   {
-   "l": "Problem",
-   "t": "list",
-   "cap": "What keeps him awake",
-   "items": [
-    {
-     "x": "Will they say yes?",
-     "s": "bad"
-    },
-    {
-     "x": "Will the budget be cut?",
-     "s": "bad"
-    },
-    {
-     "x": "Rehearsing the demo",
-     "s": "dim"
+   "cap": "3 a.m.",
+   "actors": {
+    "leo": {
+     "x": 43,
+     "pose": "slump",
+     "face": [
+      -0.8,
+      0,
+      1
+     ]
     }
+   },
+   "props": {
+    "moon": {
+     "k": "moon",
+     "x": 70,
+     "y": 36
+    },
+    "z": {
+     "k": "zzz",
+     "x": 50,
+     "y": 56,
+     "vis": 0
+    }
+   },
+   "ev": [
+    [
+     0.05,
+     "leo",
+     "say",
+     "Will they say yes?",
+     "bad"
+    ],
+    [
+     0.35,
+     "leo",
+     "think",
+     "Budget cut?",
+     "bad"
+    ],
+    [
+     0.62,
+     "*",
+     "banner",
+     "Worry changes nothing",
+     "bad"
+    ]
    ],
+   "l": "Problem",
+   "t": "act",
    "nar": "He loses sleep over whether they will say yes and whether budgets get cut. Those are not his to decide, so the worry changes nothing."
   },
   {
-   "l": "Apply",
-   "t": "split",
-   "blocks": [
-    {
-     "h": "Not up to me",
-     "tone": "bad",
-     "lose": 1,
-     "items": [
-      "The client's decision",
-      "The budget"
-     ]
-    },
-    {
-     "h": "Up to me",
-     "tone": "good",
-     "items": [
-      "My preparation",
-      "My follow-up",
-      "How I treat people"
-     ]
+   "cap": "Two lists",
+   "actors": {
+    "leo": {
+     "x": 43,
+     "pose": "shrug"
     }
+   },
+   "props": {
+    "l": {
+     "k": "sign",
+     "x": 18,
+     "text": "Not mine",
+     "tone": "bad",
+     "vis": 0
+    },
+    "r": {
+     "k": "sign",
+     "x": 68,
+     "text": "Mine",
+     "vis": 0
+    },
+    "c1": {
+     "k": "chip",
+     "x": 18,
+     "y": 70,
+     "text": "Client decides",
+     "vis": 0
+    },
+    "c2": {
+     "k": "chip",
+     "x": 18,
+     "y": 80,
+     "text": "Budget",
+     "vis": 0
+    },
+    "g1": {
+     "k": "chip",
+     "x": 68,
+     "y": 64,
+     "text": "Preparation",
+     "tone": "good",
+     "vis": 0
+    },
+    "g2": {
+     "k": "chip",
+     "x": 68,
+     "y": 74,
+     "text": "Follow-up",
+     "tone": "good",
+     "vis": 0
+    },
+    "g3": {
+     "k": "chip",
+     "x": 68,
+     "y": 84,
+     "text": "Conduct",
+     "tone": "good",
+     "vis": 0
+    }
+   },
+   "ev": [
+    [
+     0.05,
+     "l",
+     "show"
+    ],
+    [
+     0.1,
+     "r",
+     "show"
+    ],
+    [
+     0.2,
+     "c1",
+     "show"
+    ],
+    [
+     0.3,
+     "c2",
+     "show"
+    ],
+    [
+     0.4,
+     "leo",
+     "pose",
+     "point"
+    ],
+    [
+     0.45,
+     "g1",
+     "show"
+    ],
+    [
+     0.55,
+     "g2",
+     "show"
+    ],
+    [
+     0.65,
+     "g3",
+     "show"
+    ],
+    [
+     0.75,
+     "leo",
+     "pose",
+     "nod"
+    ]
    ],
+   "l": "Apply",
+   "t": "act",
    "nar": "So he sorts them into two lists. The decision and the budget are not up to him. His preparation, his follow-up, and his conduct are."
   },
   {
-   "l": "Result",
-   "t": "list",
-   "cap": "Where his energy goes now",
-   "items": [
-    {
-     "x": "Demo rehearsed twice",
-     "s": "done"
-    },
-    {
-     "x": "Thoughtful follow-up sent",
-     "s": "done"
-    },
-    {
-     "x": "Slept well on Thursday",
-     "s": "done"
+   "cap": "Friday",
+   "actors": {
+    "leo": {
+     "x": 36,
+     "pose": "type",
+     "face": [
+      0.9,
+      0,
+      1
+     ]
     }
+   },
+   "props": {
+    "desk": {
+     "k": "desk",
+     "x": 44,
+     "y": 104
+    },
+    "lap": {
+     "k": "laptop",
+     "x": 40,
+     "y": 93.2,
+     "z": "front"
+    },
+    "ck1": {
+     "k": "check",
+     "x": 64,
+     "y": 40,
+     "vis": 0
+    },
+    "ck2": {
+     "k": "check",
+     "x": 64,
+     "y": 54,
+     "vis": 0
+    },
+    "ck3": {
+     "k": "check",
+     "x": 64,
+     "y": 68,
+     "vis": 0
+    },
+    "z": {
+     "k": "zzz",
+     "x": 54,
+     "y": 56,
+     "vis": 0
+    }
+   },
+   "ev": [
+    [
+     0.1,
+     "ck1",
+     "show"
+    ],
+    [
+     0.3,
+     "ck2",
+     "show"
+    ],
+    [
+     0.5,
+     "ck3",
+     "show"
+    ],
+    [
+     0.72,
+     "*",
+     "banner",
+     "He did his part",
+     "good"
+    ]
    ],
+   "l": "Result",
+   "t": "act",
    "nar": "He puts his energy into the second list. He rehearses twice, sends a thoughtful follow-up, and sleeps well. Whatever they decide, he did his part."
   }
  ]

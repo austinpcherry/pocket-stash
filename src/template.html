@@ -348,6 +348,7 @@ h1{font-family:var(--f-display);font-weight:800;font-size:clamp(32px,7vw,48px);l
 @keyframes kShrink{0%,30%{transform:scaleX(1)}60%,100%{transform:scaleX(.4)}}
 .m-hab{display:flex;align-items:flex-end;justify-content:center;gap:2.4cqw;padding-bottom:22cqh}
 .m-hab i{width:7cqw;border-radius:1cqw;background:var(--hi);opacity:0;animation:kShow2 7s var(--d,0s) infinite}
+.actw{width:100%;display:flex;justify-content:center}.actw svg{width:100%;height:auto;max-height:100%;display:block}
 @media (prefers-reduced-motion:reduce){.tile *,.pl-stage *{animation:none!important}}
 </style>
 
@@ -736,6 +737,7 @@ h1{font-family:var(--f-display);font-weight:800;font-size:clamp(32px,7vw,48px);l
     }
     return '<div class="bigw" data-sfx="'+sx+'"><div class="bg" style="--d:.3s"'+attr+'>'+esc(txt)+'</div><p class="bc">'+esc(s.cap||'')+'</p>'+(s.sub?'<p class="bs">'+esc(s.sub)+'</p>':'')+'</div>';
   };
+/*__ACT__*/
   R.rem=function(s){
     var parts=(s.text.match(/[^.!?]+[.!?]?/g)||[s.text]).map(function(x){return x.trim()}).filter(Boolean);
     var last=parts.length-1;
@@ -851,7 +853,8 @@ h1{font-family:var(--f-display);font-weight:800;font-size:clamp(32px,7vw,48px);l
   function renderScene(i,buf){
     var sc=PL.scenes[i],sp=buf?buf.duration+.6:estimate(sc.nar),host=el('plScene'),cap=el('plCap');
     PL.buf=buf;PL.sc=sc;
-    host.innerHTML=(R[sc.t]||R.list)(sc,sp);
+    PL.eng=null;host.innerHTML=(R[sc.t]||R.list)(sc,sp);
+    if(sc.t==='act'&&PL.eng){PL.eng.bind(host);PL.eng.render(0)}
     cap.textContent=sc.nar;cap.classList.toggle('off',sc.t==='rem');
     cap.classList.remove('in');void cap.offsetWidth;cap.classList.add('in');
     el('plHudStep').textContent=sc.l;
@@ -982,6 +985,7 @@ h1{font-family:var(--f-display);font-weight:800;font-size:clamp(32px,7vw,48px);l
       if(PL.st>=PL.min&&spoken){
         if(PL.idx<PL.scenes.length-1)startScene(PL.idx+1);else finish();
       }
+      if(PL.eng)PL.eng.render(PL.st);
       paintSegs();
     }else if(PL.playing){PL.last=ts}
     requestAnimationFrame(frame);
