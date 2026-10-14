@@ -1,0 +1,93 @@
+{
+ "n": 45,
+ "id": "commitment",
+ "topic": "Game theory",
+ "secs": 25,
+ "title": "Burn the bridge",
+ "src": "Thomas Schelling, The Strategy of Conflict, 1960",
+ "idea": "Schelling showed that cutting off your own options can make a promise credible. Binding yourself in advance can force the outcome you want.",
+ "apply": "Make your commitment real: set a deadline others can see, or put something at stake so quitting costs more.",
+ "remind": "Binding yourself can make you stronger.",
+ "motif": "commit",
+ "who": "Fay, who keeps missing her own writing deadline.",
+ "scenes": [
+  {
+   "t": "list",
+   "cap": "Fay's novel",
+   "items": [
+    {
+     "x": "Plan: 500 words a day"
+    },
+    {
+     "x": "Day 3: tired, skips"
+    },
+    {
+     "x": "Day 10: starting over, again"
+    }
+   ],
+   "l": "Setup",
+   "nar": "Fay plans to write five hundred words a day. On day three she is tired and skips, and by day ten she is starting over again."
+  },
+  {
+   "t": "split",
+   "blocks": [
+    {
+     "h": "Her promise",
+     "tone": "bad",
+     "items": [
+      "Costs nothing to break",
+      "Easy to bend"
+     ]
+    },
+    {
+     "h": "Her options",
+     "tone": "bad",
+     "items": [
+      "Always open",
+      "Always tempting"
+     ]
+    }
+   ],
+   "l": "Problem",
+   "nar": "The promise costs nothing to break, so it does not hold. With every option still open, quitting always stays tempting."
+  },
+  {
+   "t": "list",
+   "cap": "Close the exit",
+   "num": 1,
+   "items": [
+    {
+     "x": "Tell her writing group: pages every Friday"
+    },
+    {
+     "x": "Pay them 20 dollars for each miss"
+    },
+    {
+     "x": "Phone in a drawer from 8 to 9"
+    }
+   ],
+   "l": "Apply",
+   "nar": "Schelling showed that limiting your own options makes a promise real. Fay commits publicly to Friday pages, and pays her group for each miss."
+  },
+  {
+   "t": "list",
+   "cap": "Two months in",
+   "items": [
+    {
+     "x": "Nine Fridays, nine submissions",
+     "s": "done"
+    },
+    {
+     "x": "A full first draft in sight",
+     "s": "done"
+    },
+    {
+     "x": "The habit holds on its own",
+     "s": "done"
+    }
+   ],
+   "l": "Result",
+   "nar": "She submits pages nine Fridays in a row. A full first draft is in sight, and the habit now holds on its own."
+  }
+ ]
+}

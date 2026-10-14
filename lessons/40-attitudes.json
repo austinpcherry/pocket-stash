@@ -1,0 +1,91 @@
+{
+ "n": 40,
+ "id": "attitudes",
+ "topic": "Jung",
+ "secs": 25,
+ "title": "Where you recharge",
+ "src": "Jung, Psychological Types",
+ "idea": "Jung described two attitudes: turning energy inward or outward. Some people recharge alone, others with people. Neither is better.",
+ "apply": "Notice what recharges you after a long week, then schedule it on purpose.",
+ "remind": "Know how you recharge. Plan for it.",
+ "motif": "recharge",
+ "who": "Noor, who says yes to every social plan.",
+ "scenes": [
+  {
+   "t": "list",
+   "cap": "Noor's weekend",
+   "items": [
+    {
+     "x": "Friday: work dinner"
+    },
+    {
+     "x": "Saturday: birthday party"
+    },
+    {
+     "x": "Sunday: brunch with friends"
+    }
+   ],
+   "l": "Setup",
+   "nar": "Noor says yes to everything. Friday dinner, Saturday party, Sunday brunch."
+  },
+  {
+   "t": "chat",
+   "msgs": [
+    {
+     "f": "think",
+     "s": "bad",
+     "x": "Why am I so exhausted?"
+    },
+    {
+     "f": "sys",
+     "x": "Monday: drained."
+    }
+   ],
+   "l": "Problem",
+   "nar": "By Monday she is drained, and cannot work out why, since she enjoyed all of it."
+  },
+  {
+   "t": "split",
+   "blocks": [
+    {
+     "h": "Energy turns outward",
+     "tone": "",
+     "items": [
+      "Recharges with people",
+      "Thinks by talking"
+     ]
+    },
+    {
+     "h": "Energy turns inward",
+     "tone": "good",
+     "items": [
+      "Recharges alone",
+      "Thinks by reflecting"
+     ]
+    }
+   ],
+   "l": "Apply",
+   "nar": "Jung described two attitudes. Some people recharge outward, with people. Others recharge inward, alone. Noor recognizes herself in the second, and neither is better."
+  },
+  {
+   "t": "list",
+   "cap": "Noor's new weekend",
+   "items": [
+    {
+     "x": "Friday: party, home by ten",
+     "s": "done"
+    },
+    {
+     "x": "Saturday: alone with a book",
+     "s": "done"
+    },
+    {
+     "x": "Sunday: brunch, rested",
+     "s": "done"
+    }
+   ],
+   "l": "Result",
+   "nar": "She keeps one social plan, leaves early, and protects a quiet Saturday. On Monday she is rested, and her friends still see her."
+  }
+ ]
+}

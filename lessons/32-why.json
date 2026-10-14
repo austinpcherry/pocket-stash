@@ -1,0 +1,90 @@
+{
+ "n": 32,
+ "id": "why",
+ "topic": "Nietzsche",
+ "secs": 25,
+ "title": "The why and the how",
+ "src": "Nietzsche, Twilight of the Idols, Maxims and Arrows 12",
+ "idea": "If you have a why for your life, you can put up with almost any how. A clear purpose makes hardship bearable.",
+ "apply": "Write one sentence on why a hard task matters to you, and read it before you start.",
+ "remind": "Know your why. The how gets easier.",
+ "motif": "why",
+ "who": "Omar, who works nights and studies in the evenings.",
+ "scenes": [
+  {
+   "t": "list",
+   "cap": "Omar's semester",
+   "items": [
+    {
+     "x": "Night shifts at a warehouse"
+    },
+    {
+     "x": "Evening classes"
+    },
+    {
+     "x": "Four hours of sleep"
+    }
+   ],
+   "l": "Setup",
+   "nar": "Omar works nights at a warehouse and takes evening classes. He sleeps four hours a day, and he is close to quitting."
+  },
+  {
+   "t": "chat",
+   "msgs": [
+    {
+     "f": "think",
+     "s": "bad",
+     "x": "Why am I doing this to myself?"
+    },
+    {
+     "f": "sys",
+     "x": "Every shift feels longer than the last."
+    }
+   ],
+   "l": "Problem",
+   "nar": "Each shift feels longer than the last. He keeps asking how he can survive the schedule, and without a reason behind it, the how feels impossible."
+  },
+  {
+   "t": "split",
+   "blocks": [
+    {
+     "h": "The how",
+     "tone": "bad",
+     "items": [
+      "Nights, classes, little sleep"
+     ]
+    },
+    {
+     "h": "The why",
+     "tone": "good",
+     "items": [
+      "A nursing degree",
+      "A better life for his daughter"
+     ]
+    }
+   ],
+   "l": "Apply",
+   "nar": "Nietzsche wrote that with a why, you can bear almost any how. Omar writes his why on a card: a nursing degree and a better life for his daughter."
+  },
+  {
+   "t": "list",
+   "cap": "Eight months later",
+   "items": [
+    {
+     "x": "Card taped inside his locker",
+     "s": "done"
+    },
+    {
+     "x": "Passes every exam",
+     "s": "done"
+    },
+    {
+     "x": "Same schedule, lighter weight",
+     "s": "done"
+    }
+   ],
+   "l": "Result",
+   "nar": "He reads the card before every shift. The schedule does not change, but it feels lighter, and he passes every exam."
+  }
+ ]
+}

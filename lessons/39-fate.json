@@ -1,0 +1,86 @@
+{
+ "n": 39,
+ "id": "fate",
+ "topic": "Jung",
+ "secs": 25,
+ "title": "What stays unseen becomes fate",
+ "src": "Jung, Aion (Collected Works 9, part II), paragraph 126",
+ "idea": "Jung wrote that when an inner situation is not made conscious, it happens outside as fate. Patterns you do not see keep repeating.",
+ "apply": "If the same problem keeps recurring, list what the situations have in common. Look for your part.",
+ "remind": "Make it conscious, or it will keep happening to you.",
+ "motif": "fatem",
+ "who": "Ivy, who keeps dating people who cancel plans.",
+ "scenes": [
+  {
+   "t": "list",
+   "cap": "Ivy's last three relationships",
+   "items": [
+    {
+     "x": "Rob: cancelled constantly"
+    },
+    {
+     "x": "Cal: always busy"
+    },
+    {
+     "x": "Theo: vanished after two months"
+    }
+   ],
+   "l": "Setup",
+   "nar": "Ivy has dated three people in two years. All of them cancel plans, stay busy, and fade out."
+  },
+  {
+   "t": "chat",
+   "msgs": [
+    {
+     "f": "think",
+     "s": "bad",
+     "x": "I just have bad luck."
+    },
+    {
+     "f": "sys",
+     "x": "The pattern repeats."
+    }
+   ],
+   "l": "Problem",
+   "nar": "She calls it bad luck. But luck does not usually repeat this exactly."
+  },
+  {
+   "t": "list",
+   "cap": "Look for the common thread",
+   "num": 1,
+   "items": [
+    {
+     "x": "What did I ignore early on?"
+    },
+    {
+     "x": "Which signs did I explain away?"
+    },
+    {
+     "x": "What do I get from guarded people?"
+    }
+   ],
+   "l": "Apply",
+   "nar": "Jung said what we do not make conscious shows up as fate. Ivy lists what the three had in common, and what signs she explained away early."
+  },
+  {
+   "t": "list",
+   "cap": "What she found",
+   "items": [
+    {
+     "x": "She is drawn to guarded people",
+     "s": "done"
+    },
+    {
+     "x": "Chooses a warmer partner",
+     "s": "done"
+    },
+    {
+     "x": "The pattern finally breaks",
+     "s": "done"
+    }
+   ],
+   "l": "Result",
+   "nar": "She sees she is drawn to guarded people, because they feel familiar. Once she sees it, she can choose differently, and the pattern breaks."
+  }
+ ]
+}

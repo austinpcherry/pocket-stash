@@ -1,0 +1,91 @@
+{
+ "n": 36,
+ "id": "shadow",
+ "topic": "Jung",
+ "secs": 25,
+ "title": "The shadow",
+ "src": "Jung, Aion, chapter 2",
+ "idea": "Jung's shadow is the part of yourself you disown. What irritates you most in others often points to something you refuse to see in yourself.",
+ "apply": "Next time someone really irritates you, ask what exactly bothers you, and where that trait shows up in you.",
+ "remind": "What bothers you in others may be a part of you.",
+ "motif": "shadow",
+ "who": "Ana, who cannot stand a coworker she calls arrogant.",
+ "scenes": [
+  {
+   "t": "list",
+   "cap": "What irritates Ana",
+   "items": [
+    {
+     "x": "Sam brags about every win"
+    },
+    {
+     "x": "He interrupts in meetings"
+    },
+    {
+     "x": "He always has an opinion"
+    }
+   ],
+   "l": "Setup",
+   "nar": "Ana cannot stand her coworker Sam. He brags about every win, interrupts in meetings, and always has an opinion."
+  },
+  {
+   "t": "chat",
+   "msgs": [
+    {
+     "f": "think",
+     "s": "bad",
+     "x": "He is so arrogant."
+    },
+    {
+     "f": "sys",
+     "x": "The irritation is bigger than the behavior."
+    }
+   ],
+   "l": "Problem",
+   "nar": "She tells herself he is arrogant and that she would never act like that. But the irritation is stronger than his behavior deserves."
+  },
+  {
+   "t": "split",
+   "blocks": [
+    {
+     "h": "On Sam",
+     "tone": "bad",
+     "items": [
+      "Brags about wins",
+      "Wants the spotlight"
+     ]
+    },
+    {
+     "h": "In me?",
+     "tone": "good",
+     "items": [
+      "I want recognition too",
+      "I hide it behind modesty"
+     ]
+    }
+   ],
+   "l": "Apply",
+   "nar": "Jung would call this the shadow. Ana asks what bothers her and where it lives in her. She wants recognition too, and hides it behind modesty."
+  },
+  {
+   "t": "list",
+   "cap": "What changed",
+   "items": [
+    {
+     "x": "Asks for credit on her own project",
+     "s": "done"
+    },
+    {
+     "x": "Sam bothers her much less",
+     "s": "done"
+    },
+    {
+     "x": "More direct with everyone",
+     "s": "done"
+    }
+   ],
+   "l": "Result",
+   "nar": "She starts asking for credit for her work. Sam bothers her much less, and she becomes more direct with everyone."
+  }
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "n": 33,
+ "id": "become",
+ "topic": "Nietzsche",
+ "secs": 25,
+ "title": "Become who you are",
+ "src": "Nietzsche, The Gay Science 270",
+ "idea": "Do not copy a life from the expectations around you. Look at what you truly love and are, and grow into it.",
+ "apply": "List three things you did this year that felt like you. Do more of those and fewer of the others.",
+ "remind": "Do not imitate. Grow into who you already are.",
+ "motif": "become",
+ "who": "Tess, an accountant who keeps drawing on her lunch breaks.",
+ "scenes": [
+  {
+   "t": "list",
+   "cap": "Tess's life on paper",
+   "items": [
+    {
+     "x": "Accountant, like her father"
+    },
+    {
+     "x": "Weekend dinners with colleagues"
+    },
+    {
+     "x": "A sketchbook in the drawer"
+    }
+   ],
+   "l": "Setup",
+   "nar": "Tess is an accountant, like her father wanted. Her sketchbook stays in a drawer, though she draws on every lunch break."
+  },
+  {
+   "t": "chat",
+   "msgs": [
+    {
+     "f": "think",
+     "s": "bad",
+     "x": "I should be happy with this."
+    },
+    {
+     "f": "sys",
+     "x": "She feels like she is playing a part."
+    }
+   ],
+   "l": "Problem",
+   "nar": "She tells herself she should be happy. But she feels like she is playing a part written by other people."
+  },
+  {
+   "t": "list",
+   "cap": "Nietzsche's question",
+   "num": 1,
+   "items": [
+    {
+     "x": "What have I truly loved?"
+    },
+    {
+     "x": "When did I feel most like myself?"
+    },
+    {
+     "x": "Do more of that"
+    }
+   ],
+   "l": "Apply",
+   "nar": "Nietzsche asked what you have truly loved, and when you felt most yourself. Tess lists her answers, and every one of them involves drawing."
+  },
+  {
+   "t": "list",
+   "cap": "A year later",
+   "items": [
+    {
+     "x": "Illustration side work, two clients",
+     "s": "done"
+    },
+    {
+     "x": "Four days a week at the firm",
+     "s": "done"
+    },
+    {
+     "x": "It feels like her own life",
+     "s": "done"
+    }
+   ],
+   "l": "Result",
+   "nar": "She cuts back to four days a week and takes illustration clients. She is still an accountant, and for the first time it feels like her own life."
+  }
+ ]
+}

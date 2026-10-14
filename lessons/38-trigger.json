@@ -1,0 +1,90 @@
+{
+ "n": 38,
+ "id": "trigger",
+ "topic": "Jung",
+ "secs": 25,
+ "title": "Emotional triggers",
+ "src": "Jung, A Review of the Complex Theory",
+ "idea": "Jung found that some topics carry a charge far larger than the moment deserves. An outsized reaction points to something unresolved.",
+ "apply": "When you overreact, write down the trigger, the feeling, and the earliest time you remember feeling it.",
+ "remind": "An outsized reaction points to something older.",
+ "motif": "trigger",
+ "who": "Rory, who explodes whenever he is corrected.",
+ "scenes": [
+  {
+   "t": "chat",
+   "msgs": [
+    {
+     "f": "them",
+     "x": "Small fix: the date is wrong on slide 3."
+    },
+    {
+     "f": "think",
+     "s": "bad",
+     "x": "Why does everyone assume I am careless?"
+    }
+   ],
+   "cap": "Rory's morning",
+   "l": "Setup",
+   "nar": "A colleague mentions a wrong date on slide three. Rory feels his face heat up and answers sharply."
+  },
+  {
+   "t": "bars",
+   "cap": "Size of reaction (illustrative)",
+   "max": 100,
+   "rows": [
+    {
+     "l": "The event",
+     "v": 10,
+     "t": "A typo"
+    },
+    {
+     "l": "His reaction",
+     "v": 85,
+     "t": "Furious",
+     "hot": 1
+    }
+   ],
+   "l": "Problem",
+   "nar": "The event is a typo, but the reaction is enormous. That gap is the clue."
+  },
+  {
+   "t": "list",
+   "cap": "Rory's three notes",
+   "num": 1,
+   "items": [
+    {
+     "x": "Trigger: being corrected"
+    },
+    {
+     "x": "Feeling: shame, then anger"
+    },
+    {
+     "x": "First memory: a teacher who mocked his mistakes"
+    }
+   ],
+   "l": "Apply",
+   "nar": "Jung called these charged clusters complexes. Rory notes the trigger, the feeling, and the earliest memory of it: a teacher who mocked his mistakes."
+  },
+  {
+   "t": "list",
+   "cap": "The next correction",
+   "items": [
+    {
+     "x": "Feels the heat rise",
+     "s": "done"
+    },
+    {
+     "x": "Names it: old pattern",
+     "s": "done"
+    },
+    {
+     "x": "Replies: thanks, fixing it now",
+     "s": "done"
+    }
+   ],
+   "l": "Result",
+   "nar": "Next time he feels the heat rise and names it: old pattern. He replies, thanks, fixing it now, and the moment passes."
+  }
+ ]
+}

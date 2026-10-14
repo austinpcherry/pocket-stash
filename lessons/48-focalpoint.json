@@ -1,0 +1,90 @@
+{
+ "n": 48,
+ "id": "focalpoint",
+ "topic": "Game theory",
+ "secs": 25,
+ "title": "Focal points",
+ "src": "Thomas Schelling, The Strategy of Conflict, 1960",
+ "idea": "When people cannot communicate, they tend to choose the option that stands out as obvious. Shared salience solves coordination problems.",
+ "apply": "When coordinating, pick the obvious option, or name the place, time, and plan out loud instead of guessing.",
+ "remind": "When in doubt, choose the obvious. Or say it out loud.",
+ "motif": "focal",
+ "who": "Gia and Max, who lose each other at a festival.",
+ "scenes": [
+  {
+   "t": "list",
+   "cap": "A busy festival",
+   "items": [
+    {
+     "x": "Gia and Max get separated"
+    },
+    {
+     "x": "No phone signal"
+    },
+    {
+     "x": "No agreed meeting spot"
+    }
+   ],
+   "l": "Setup",
+   "nar": "Gia and Max get separated at a crowded festival. There is no phone signal, and they never agreed on a meeting spot."
+  },
+  {
+   "t": "list",
+   "cap": "Gia's options",
+   "items": [
+    {
+     "x": "Wait where she is",
+     "s": "dim"
+    },
+    {
+     "x": "Search the whole festival",
+     "s": "bad"
+    },
+    {
+     "x": "Guess where Max would guess",
+     "s": "hot"
+    }
+   ],
+   "l": "Problem",
+   "nar": "She could wait, or search everywhere. Or she can think about where Max would expect her to go."
+  },
+  {
+   "t": "list",
+   "cap": "Schelling's focal point",
+   "num": 1,
+   "items": [
+    {
+     "x": "Pick the option that stands out"
+    },
+    {
+     "x": "The big entrance gate"
+    },
+    {
+     "x": "Max reasons the same way"
+    }
+   ],
+   "l": "Apply",
+   "nar": "Schelling found that people tend to choose what stands out as obvious. The big entrance gate is the clearest spot, and Max reasons the same way."
+  },
+  {
+   "t": "list",
+   "cap": "Twenty minutes later",
+   "items": [
+    {
+     "x": "Both reach the entrance gate",
+     "s": "done"
+    },
+    {
+     "x": "Next time, they name a spot first",
+     "s": "done"
+    },
+    {
+     "x": "Saying it out loud beats guessing",
+     "s": "done"
+    }
+   ],
+   "l": "Result",
+   "nar": "They meet at the gate within twenty minutes. Next time, they agree on a spot before they go, because saying it out loud beats guessing."
+  }
+ ]
+}

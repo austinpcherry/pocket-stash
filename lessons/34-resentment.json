@@ -1,0 +1,88 @@
+{
+ "n": 34,
+ "id": "resentment",
+ "topic": "Nietzsche",
+ "secs": 25,
+ "title": "Resentment is poison",
+ "src": "Nietzsche, On the Genealogy of Morality, First Essay",
+ "idea": "Nietzsche saw resentment as a grudge that feeds on itself. It hurts the one who carries it far more than its target.",
+ "apply": "When you replay a grievance, ask what action would actually change it. Do that, or let it go.",
+ "remind": "A grudge costs you more than them.",
+ "motif": "grudge",
+ "who": "Jules, who has not spoken to a former business partner in two years.",
+ "scenes": [
+  {
+   "t": "list",
+   "cap": "Jules and the old partnership",
+   "items": [
+    {
+     "x": "Partner left with the client list"
+    },
+    {
+     "x": "Two years of silence"
+    },
+    {
+     "x": "Replays it in the shower"
+    }
+   ],
+   "l": "Setup",
+   "nar": "Two years ago, Jules's business partner left with the client list. Jules has not spoken to him since, and replays it almost every day."
+  },
+  {
+   "t": "bars",
+   "cap": "Who pays for the grudge (illustrative)",
+   "max": 100,
+   "rows": [
+    {
+     "l": "Partner",
+     "v": 5,
+     "t": "Barely notices"
+    },
+    {
+     "l": "Jules",
+     "v": 90,
+     "t": "Every day",
+     "hot": 1
+    }
+   ],
+   "l": "Problem",
+   "nar": "The partner has moved on. Jules is the one paying, with bad sleep, bitter conversations, and energy spent on the past."
+  },
+  {
+   "t": "list",
+   "cap": "Two honest options",
+   "items": [
+    {
+     "x": "Act: one clear email about what is owed",
+     "s": "hot"
+    },
+    {
+     "x": "Or release it: stop rehearsing",
+     "s": "dim"
+    }
+   ],
+   "l": "Apply",
+   "nar": "Nietzsche saw resentment as poison swallowed by the one who holds it. Jules picks one of two honest options: act, or release. No more rehearsing."
+  },
+  {
+   "t": "list",
+   "cap": "Three months later",
+   "items": [
+    {
+     "x": "One firm email, partial payment",
+     "s": "done"
+    },
+    {
+     "x": "Stopped replaying it",
+     "s": "done"
+    },
+    {
+     "x": "Energy goes to new clients",
+     "s": "done"
+    }
+   ],
+   "l": "Result",
+   "nar": "Jules sends one firm email and receives a partial payment. The replaying stops, and the energy goes into winning new clients."
+  }
+ ]
+}

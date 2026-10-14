@@ -1,0 +1,87 @@
+{
+ "n": 44,
+ "id": "staghunt",
+ "topic": "Game theory",
+ "secs": 25,
+ "title": "The stag hunt",
+ "src": "Jean-Jacques Rousseau, A Discourse on Inequality, 1755",
+ "idea": "Two hunters can catch a stag only together, or each can safely catch a hare alone. Big wins need trust that the other will show up.",
+ "apply": "For a shared goal, confirm commitment early and visibly, and make a small first move that builds trust.",
+ "remind": "Big goals need trust. Show up first.",
+ "motif": "stag",
+ "who": "Ola and Ben, who want to launch an app together.",
+ "scenes": [
+  {
+   "t": "list",
+   "cap": "Ola and Ben's choice",
+   "items": [
+    {
+     "x": "Stag: build the app together, big payoff"
+    },
+    {
+     "x": "Hare: each takes a safe freelance gig"
+    },
+    {
+     "x": "The stag needs both of them"
+    }
+   ],
+   "l": "Setup",
+   "nar": "Ola and Ben could build an app together, which would pay off big, but only if both commit fully. Or each could take a safe freelance gig."
+  },
+  {
+   "t": "chat",
+   "msgs": [
+    {
+     "f": "think",
+     "s": "bad",
+     "x": "What if Ben flakes?"
+    },
+    {
+     "f": "think",
+     "s": "bad",
+     "x": "What if Ola takes a job?"
+    }
+   ],
+   "l": "Problem",
+   "nar": "Each worries the other will flake. Both quietly take freelance gigs, the safe hare, and the big project never happens."
+  },
+  {
+   "t": "list",
+   "cap": "Build trust first",
+   "num": 1,
+   "items": [
+    {
+     "x": "Say it out loud: I am in, fully"
+    },
+    {
+     "x": "Set a small first milestone"
+    },
+    {
+     "x": "Both put the date in the calendar"
+    }
+   ],
+   "l": "Apply",
+   "nar": "Rousseau's stag hunt shows that big wins need trust. They say it out loud, set a small first milestone, and book the date."
+  },
+  {
+   "t": "list",
+   "cap": "Three months later",
+   "items": [
+    {
+     "x": "Milestone one shipped on time",
+     "s": "done"
+    },
+    {
+     "x": "Trust grows with each delivery",
+     "s": "done"
+    },
+    {
+     "x": "Both cut back freelance work",
+     "s": "done"
+    }
+   ],
+   "l": "Result",
+   "nar": "They ship the first milestone on time. Trust grows with each delivery, and both cut back their freelance work."
+  }
+ ]
+}

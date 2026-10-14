@@ -1,0 +1,96 @@
+{
+ "n": 46,
+ "id": "ultimatum",
+ "topic": "Game theory",
+ "secs": 25,
+ "title": "The ultimatum game",
+ "src": "Werner Guth and colleagues, 1982",
+ "idea": "In the ultimatum game, people often reject a very unfair offer even though it costs them money. Fairness matters, not only self interest.",
+ "apply": "In negotiations, a lowball offer can backfire. Make offers the other side can accept without feeling insulted.",
+ "remind": "Unfair deals get rejected. Offer fair.",
+ "motif": "ultim",
+ "who": "Nate and Pete, who win a gift card together.",
+ "scenes": [
+  {
+   "t": "list",
+   "cap": "A split offer",
+   "items": [
+    {
+     "x": "Nate and Pete win a 100 dollar gift card"
+    },
+    {
+     "x": "Pete proposes: 90 for me, 10 for you"
+    },
+    {
+     "x": "If Nate refuses, nobody gets anything"
+    }
+   ],
+   "l": "Setup",
+   "nar": "Nate and his coworker Pete win a one hundred dollar gift card. Pete proposes ninety for himself and ten for Nate. If Nate refuses, nobody gets anything."
+  },
+  {
+   "t": "list",
+   "cap": "Logic against reality",
+   "items": [
+    {
+     "x": "Logic: ten dollars beats zero",
+     "s": "dim"
+    },
+    {
+     "x": "Reality: Nate says no",
+     "s": "bad"
+    },
+    {
+     "x": "Both leave with nothing",
+     "s": "bad"
+    }
+   ],
+   "l": "Problem",
+   "nar": "Pure logic says ten dollars beats nothing. But Nate refuses, and both leave empty handed. Studies find people often reject offers they see as unfair."
+  },
+  {
+   "t": "split",
+   "blocks": [
+    {
+     "h": "Lowball",
+     "tone": "bad",
+     "items": [
+      "90 and 10",
+      "Rejected as insulting"
+     ],
+     "lose": 1
+    },
+    {
+     "h": "Fair enough",
+     "tone": "good",
+     "items": [
+      "Close to even",
+      "Accepted, relationship intact"
+     ]
+    }
+   ],
+   "l": "Apply",
+   "nar": "The lesson is for the person making the offer. A lowball can be rejected, and a fair one gets accepted. Pete would have done better offering something close to even."
+  },
+  {
+   "t": "list",
+   "cap": "Next time",
+   "items": [
+    {
+     "x": "Pete offers 55 and 45",
+     "s": "done"
+    },
+    {
+     "x": "Nate says yes",
+     "s": "done"
+    },
+    {
+     "x": "Both walk away with a prize",
+     "s": "done"
+    }
+   ],
+   "l": "Result",
+   "nar": "Next time Pete offers fifty five to forty five. Nate agrees, and both walk away with something."
+  }
+ ]
+}

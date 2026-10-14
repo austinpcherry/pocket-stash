@@ -1,0 +1,89 @@
+{
+ "n": 42,
+ "id": "titfortat",
+ "topic": "Game theory",
+ "secs": 25,
+ "title": "Tit for tat",
+ "src": "Robert Axelrod, The Evolution of Cooperation, 1984",
+ "idea": "In repeated games, a strategy that starts friendly, copies the other side's last move, and forgives quickly beat far more complicated rivals in Axelrod's tournaments.",
+ "apply": "In an ongoing relationship, start with good faith, answer an unfair move once and clearly, then return to cooperation.",
+ "remind": "Start kind. Answer once. Forgive fast.",
+ "motif": "tft",
+ "who": "Hugo, who deals with the same supplier every month.",
+ "scenes": [
+  {
+   "t": "list",
+   "cap": "Hugo and his supplier",
+   "items": [
+    {
+     "x": "The same supplier, every month"
+    },
+    {
+     "x": "Each side can be generous or sharp"
+    },
+    {
+     "x": "They will deal again next month"
+    }
+   ],
+   "l": "Setup",
+   "nar": "Hugo orders from the same supplier every month. Each side can be generous or sharp, and they will deal again next month."
+  },
+  {
+   "t": "list",
+   "cap": "Two bad strategies",
+   "items": [
+    {
+     "x": "Always give in: they take advantage",
+     "s": "bad"
+    },
+    {
+     "x": "Always retaliate: every month is a fight",
+     "s": "bad"
+    }
+   ],
+   "l": "Problem",
+   "nar": "Always giving in invites being taken advantage of. Always retaliating turns every month into a fight."
+  },
+  {
+   "t": "list",
+   "cap": "Axelrod's winning traits",
+   "num": 1,
+   "items": [
+    {
+     "x": "Be nice: start friendly"
+    },
+    {
+     "x": "Be provocable: answer unfairness once"
+    },
+    {
+     "x": "Be forgiving: return to cooperation"
+    },
+    {
+     "x": "Be clear: stay predictable"
+    }
+   ],
+   "l": "Apply",
+   "nar": "In Axelrod's tournaments, tit for tat won. Be nice first, respond to unfairness once, forgive quickly, and be predictable."
+  },
+  {
+   "t": "list",
+   "cap": "Hugo's year",
+   "items": [
+    {
+     "x": "Late delivery: one calm, firm email",
+     "s": "done"
+    },
+    {
+     "x": "Supplier fixes it, thanks him",
+     "s": "done"
+    },
+    {
+     "x": "Better terms next quarter",
+     "s": "done"
+    }
+   ],
+   "l": "Result",
+   "nar": "When a delivery is late, Hugo sends one firm email. The supplier fixes it, the relationship resets, and better terms follow."
+  }
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "n": 41,
+ "id": "dilemma",
+ "topic": "Game theory",
+ "secs": 25,
+ "title": "The prisoner's dilemma",
+ "src": "Flood and Dresher, RAND, 1950; named by Albert Tucker",
+ "idea": "Two people each gain by cheating, yet both end up worse off than if they had cooperated. Self interest alone can produce a bad result for everyone.",
+ "apply": "When you spot a trap where everyone is tempted to cut corners, change the rules so cooperation pays.",
+ "remind": "Make cooperating the winning move.",
+ "motif": "matrix",
+ "who": "Rae and Jo, roommates who both skip the dishes.",
+ "scenes": [
+  {
+   "t": "list",
+   "cap": "Rae and Jo's choice, every night",
+   "items": [
+    {
+     "x": "Washing up costs 15 minutes"
+    },
+    {
+     "x": "Skipping is free, if the other washes"
+    },
+    {
+     "x": "Both skip: a messy kitchen"
+    }
+   ],
+   "l": "Setup",
+   "nar": "Rae and Jo share a kitchen. Washing up costs fifteen minutes. Skipping is free, as long as the other person washes."
+  },
+  {
+   "t": "split",
+   "blocks": [
+    {
+     "h": "Rae thinks",
+     "tone": "bad",
+     "items": [
+      "If Jo washes, I skip",
+      "If Jo skips, I skip too"
+     ]
+    },
+    {
+     "h": "Jo thinks the same",
+     "tone": "bad",
+     "items": [
+      "Skipping always wins"
+     ]
+    }
+   ],
+   "l": "Problem",
+   "nar": "Whatever Jo does, Rae is better off skipping, and Jo reasons the same. So both skip, and the kitchen is a mess, which is worse for both than sharing the work."
+  },
+  {
+   "t": "list",
+   "cap": "Change the payoffs",
+   "items": [
+    {
+     "x": "A simple rota on the fridge"
+    },
+    {
+     "x": "Whoever skips owes a coffee"
+    },
+    {
+     "x": "Dishes stay visible, not hidden"
+    }
+   ],
+   "l": "Apply",
+   "nar": "Game theory calls this the prisoner's dilemma. The fix is to change the payoffs. They post a rota, and whoever skips owes a coffee."
+  },
+  {
+   "t": "list",
+   "cap": "A month later",
+   "items": [
+    {
+     "x": "Kitchen clean most nights",
+     "s": "done"
+    },
+    {
+     "x": "No more resentment",
+     "s": "done"
+    },
+    {
+     "x": "Skipping is rare, and owned up to",
+     "s": "done"
+    }
+   ],
+   "l": "Result",
+   "nar": "The kitchen stays clean, the resentment fades, and skipping becomes rare. Cooperation now pays."
+  }
+ ]
+}

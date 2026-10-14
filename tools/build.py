@@ -57,7 +57,7 @@ if '--render' in sys.argv:
     M=sys.argv[sys.argv.index('--render')+1]
     for v,sid in VOICES.items():
         subprocess.run([sys.executable,'tools/render.py',A,v,str(sid),'build/lines.json',M],check=True)
-missing=[(v,l['key']) for v in VOICES for l in lines if not os.path.exists('audio/%s/%s.mp3'%(v,l['key']))]
+missing=[] if '--skip-audio-check' in sys.argv else [(v,l['key']) for v in VOICES for l in lines if not os.path.exists('audio/%s/%s.mp3'%(v,l['key']))]
 if missing: err('audio','%d narration files missing, e.g. %s. Run build.py --render <kokoro dir>'%(len(missing),missing[0]))
 if errs:
     print('\n'.join(errs)); print('\nBuild stopped: %d problem(s).'%len(errs)); sys.exit(1)
@@ -85,7 +85,7 @@ for sz in (192,512):
         else: d.ellipse([cx-R,cy-R,cx+R,cy+R],fill=c) if i==2 else d.ellipse([cx-R,cy-R,cx+R,cy+R],outline=c,width=max(2,sz//64))
     im.save('dist/icon-%d.png'%sz)
 h=hashlib.sha1(html.encode()).hexdigest()[:10]
-audio=sorted('audio/%s/%s.mp3'%(v,l['key']) for v in VOICES for l in lines)
+audio=sorted('audio/bella/%s.mp3'%l['key'] for l in lines)  # only the default voice is precached; others cache as they are played
 core=['./','index.html','manifest.webmanifest','icon-192.png','icon-512.png']
 sw="""const V='stash-%s';
 const A='stash-audio-%s';

@@ -1,0 +1,96 @@
+{
+ "n": 35,
+ "id": "monsters",
+ "topic": "Nietzsche",
+ "secs": 25,
+ "title": "Beware of becoming the monster",
+ "src": "Nietzsche, Beyond Good and Evil 146",
+ "idea": "He who fights monsters should be careful not to become one. Fighting something long enough can change you into it.",
+ "apply": "After a conflict, check whether you used the same tactics you condemned. If so, step back.",
+ "remind": "Do not become what you fight.",
+ "motif": "abyss",
+ "who": "Kofi, a forum moderator worn down by trolls.",
+ "scenes": [
+  {
+   "t": "chat",
+   "msgs": [
+    {
+     "f": "them",
+     "x": "You are all idiots."
+    },
+    {
+     "f": "me",
+     "s": "draft",
+     "x": "Take your own advice, genius."
+    }
+   ],
+   "cap": "Kofi, moderating a forum",
+   "l": "Setup",
+   "nar": "Kofi moderates a community forum. After months of trolls, he starts firing back with sarcasm of his own."
+  },
+  {
+   "t": "list",
+   "cap": "Kofi after six months",
+   "items": [
+    {
+     "x": "Snaps at ordinary members",
+     "s": "bad"
+    },
+    {
+     "x": "Reads comments hunting for fights",
+     "s": "bad"
+    },
+    {
+     "x": "Feels bitter all day",
+     "s": "bad"
+    }
+   ],
+   "l": "Problem",
+   "nar": "Six months in, he snaps at ordinary members, hunts for fights, and feels bitter all day. The fight has changed him."
+  },
+  {
+   "t": "split",
+   "blocks": [
+    {
+     "h": "The old reflex",
+     "tone": "bad",
+     "items": [
+      "Match their tone",
+      "Win the exchange"
+     ],
+     "lose": 1
+    },
+    {
+     "h": "The Nietzsche check",
+     "tone": "good",
+     "items": [
+      "Am I becoming what I fight?",
+      "Reply with the written rules, not rage"
+     ]
+    }
+   ],
+   "l": "Apply",
+   "nar": "Nietzsche warned that fighting monsters can turn you into one. Kofi sets a rule: reply only with the written policy, never with his temper."
+  },
+  {
+   "t": "list",
+   "cap": "A month later",
+   "items": [
+    {
+     "x": "Calm, short replies",
+     "s": "done"
+    },
+    {
+     "x": "Trolls lose interest",
+     "s": "done"
+    },
+    {
+     "x": "He enjoys the work again",
+     "s": "done"
+    }
+   ],
+   "l": "Result",
+   "nar": "His replies become calm and short. The trolls lose interest, and Kofi enjoys the work again."
+  }
+ ]
+}

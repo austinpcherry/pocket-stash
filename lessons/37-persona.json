@@ -1,0 +1,95 @@
+{
+ "n": 37,
+ "id": "persona",
+ "topic": "Jung",
+ "secs": 25,
+ "title": "The persona",
+ "src": "Jung, Two Essays on Analytical Psychology",
+ "idea": "The persona is the mask you wear for the roles you play. It is useful, but trouble starts when you forget it is a mask.",
+ "apply": "Notice one role you play at work or with family, and ask what part of you it leaves out.",
+ "remind": "Wear the mask. Do not forget your face.",
+ "motif": "persona",
+ "who": "Dev, a manager who is upbeat at work and drained at home.",
+ "scenes": [
+  {
+   "t": "list",
+   "cap": "Dev's days",
+   "items": [
+    {
+     "x": "At work: always upbeat"
+    },
+    {
+     "x": "In meetings: never shows doubt"
+    },
+    {
+     "x": "At home: silent and drained"
+    }
+   ],
+   "l": "Setup",
+   "nar": "At work, Dev is always upbeat and never shows doubt. At home, he is silent and drained."
+  },
+  {
+   "t": "split",
+   "blocks": [
+    {
+     "h": "The mask",
+     "tone": "",
+     "items": [
+      "Confident",
+      "Upbeat",
+      "In control"
+     ]
+    },
+    {
+     "h": "Left out",
+     "tone": "bad",
+     "items": [
+      "Doubt",
+      "Tiredness",
+      "Asking for help"
+     ]
+    }
+   ],
+   "l": "Problem",
+   "nar": "Jung called the face we show the world a persona. It is useful, but Dev's has no room for doubt, tiredness, or asking for help."
+  },
+  {
+   "t": "list",
+   "cap": "Loosen the mask a little",
+   "num": 1,
+   "items": [
+    {
+     "x": "Share one doubt with a trusted colleague"
+    },
+    {
+     "x": "Tell his partner what drained him"
+    },
+    {
+     "x": "Keep the professional role intact"
+    }
+   ],
+   "l": "Apply",
+   "nar": "He does not drop the role. He shares one doubt with a trusted colleague, and tells his partner what drained him that day."
+  },
+  {
+   "t": "list",
+   "cap": "Six weeks later",
+   "items": [
+    {
+     "x": "A colleague offers real help",
+     "s": "done"
+    },
+    {
+     "x": "Home feels less silent",
+     "s": "done"
+    },
+    {
+     "x": "The work role stays solid",
+     "s": "done"
+    }
+   ],
+   "l": "Result",
+   "nar": "A colleague offers real help, home feels less silent, and his work role stays solid. The mask is a tool again."
+  }
+ ]
+}

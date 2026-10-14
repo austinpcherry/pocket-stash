@@ -1,0 +1,95 @@
+{
+ "n": 43,
+ "id": "nash",
+ "topic": "Game theory",
+ "secs": 25,
+ "title": "Nash equilibrium",
+ "src": "John Nash, Equilibrium Points in N-Person Games, 1950",
+ "idea": "A Nash equilibrium is a situation where nobody can do better by changing only their own choice, even if everyone would prefer something else.",
+ "apply": "When a bad situation is stable, look at what each person would lose by moving alone, then coordinate a move together.",
+ "remind": "Stuck? Move together, not alone.",
+ "motif": "nash",
+ "who": "A concert crowd, where everyone ends up standing.",
+ "scenes": [
+  {
+   "t": "list",
+   "cap": "A concert, song one",
+   "items": [
+    {
+     "x": "Everyone sits and sees fine"
+    },
+    {
+     "x": "One person stands up"
+    },
+    {
+     "x": "Now the row behind cannot see"
+    }
+   ],
+   "l": "Setup",
+   "nar": "At a concert, everyone is seated and can see fine. One person stands up, and now the people behind them cannot see."
+  },
+  {
+   "t": "list",
+   "cap": "A few songs later",
+   "items": [
+    {
+     "x": "Everyone stands",
+     "s": "bad"
+    },
+    {
+     "x": "Same view, tired feet",
+     "s": "bad"
+    },
+    {
+     "x": "Sitting alone means seeing nothing",
+     "s": "bad"
+    }
+   ],
+   "l": "Problem",
+   "nar": "Soon everyone stands. The view is the same as at the start, only with tired feet, and anyone who sits alone sees nothing."
+  },
+  {
+   "t": "split",
+   "blocks": [
+    {
+     "h": "Nash equilibrium",
+     "tone": "bad",
+     "items": [
+      "Nobody gains by sitting alone",
+      "Everyone is stuck standing"
+     ]
+    },
+    {
+     "h": "The way out",
+     "tone": "good",
+     "items": [
+      "Move together",
+      "Agree on a rule"
+     ]
+    }
+   ],
+   "l": "Apply",
+   "nar": "That is a Nash equilibrium. Nobody can do better by changing alone, so the crowd stays stuck. The way out is to change together."
+  },
+  {
+   "t": "list",
+   "cap": "At a better venue",
+   "items": [
+    {
+     "x": "Organizers ask the front rows to sit",
+     "s": "done"
+    },
+    {
+     "x": "Everyone agrees, everyone sees",
+     "s": "done"
+    },
+    {
+     "x": "Sore feet saved",
+     "s": "done"
+    }
+   ],
+   "l": "Result",
+   "nar": "At a better venue, the organizers ask the front rows to stay seated. Everyone agrees, and everyone sees without standing."
+  }
+ ]
+}

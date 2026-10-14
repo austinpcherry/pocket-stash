@@ -1,0 +1,87 @@
+{
+ "n": 47,
+ "id": "positivesum",
+ "topic": "Game theory",
+ "secs": 25,
+ "title": "Make the pie bigger",
+ "src": "Von Neumann and Morgenstern, 1944; Fisher and Ury, Getting to Yes, 1981",
+ "idea": "Not every negotiation is zero-sum. When people want different things, you can often trade so that both get more.",
+ "apply": "Before haggling over one number, ask what each side values most, and trade what is cheap for you and valuable to them.",
+ "remind": "Look for trades that grow the pie.",
+ "motif": "grow",
+ "who": "Mina, who asks her boss for a raise in a frozen budget.",
+ "scenes": [
+  {
+   "t": "list",
+   "cap": "Mina asks for a raise",
+   "items": [
+    {
+     "x": "Mina: wants 8,000 dollars more"
+    },
+    {
+     "x": "Boss: the budget is frozen"
+    },
+    {
+     "x": "A stalemate"
+    }
+   ],
+   "l": "Setup",
+   "nar": "Mina asks her boss for an eight thousand dollar raise. The budget is frozen, so the boss says no, and it looks like a stalemate."
+  },
+  {
+   "t": "split",
+   "blocks": [
+    {
+     "h": "The zero-sum view",
+     "tone": "bad",
+     "items": [
+      "Every dollar I win, you lose",
+      "Someone must lose"
+     ]
+    }
+   ],
+   "l": "Problem",
+   "nar": "If the only question is how much money, it is zero-sum: every dollar she wins, the company loses."
+  },
+  {
+   "t": "list",
+   "cap": "Ask what each side values",
+   "items": [
+    {
+     "x": "Boss values: a flat budget",
+     "s": "dim"
+    },
+    {
+     "x": "Mina values: flexibility and growth",
+     "s": "hot"
+    },
+    {
+     "x": "Trade: remote Fridays and a training budget",
+     "s": "done"
+    }
+   ],
+   "l": "Apply",
+   "nar": "Mina asks what each side values. The boss cannot spend more, and Mina wants flexibility and growth. So they trade: remote Fridays and a training budget."
+  },
+  {
+   "t": "list",
+   "cap": "The deal",
+   "items": [
+    {
+     "x": "The budget stays frozen",
+     "s": "done"
+    },
+    {
+     "x": "Mina gets what she values most",
+     "s": "done"
+    },
+    {
+     "x": "Pay review in six months",
+     "s": "done"
+    }
+   ],
+   "l": "Result",
+   "nar": "The budget stays frozen, Mina gets what she values most, and they plan a pay review in six months. Both end up better off."
+  }
+ ]
+}
