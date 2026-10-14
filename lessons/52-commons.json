@@ -1,0 +1,92 @@
+{
+ "n": 52,
+ "id": "commons",
+ "topic": "Game theory",
+ "secs": 25,
+ "title": "The tragedy of the commons",
+ "src": "Garrett Hardin, 1968; Elinor Ostrom, Governing the Commons, 1990",
+ "idea": "When everyone shares a resource and each takes a bit more for themselves, the shared resource collapses. Ostrom showed that groups can prevent it with clear rules.",
+ "apply": "For any shared resource, make use visible, name an owner, and agree on simple rules before it is depleted.",
+ "remind": "Shared things need owners and rules.",
+ "motif": "commons",
+ "who": "Marta's office, where the shared fridge keeps filling with forgotten food.",
+ "scenes": [
+  {
+   "t": "list",
+   "cap": "The office fridge",
+   "items": [
+    {
+     "x": "Thirty people share one fridge"
+    },
+    {
+     "x": "Everyone adds, few remove"
+    },
+    {
+     "x": "Nobody owns it"
+    }
+   ],
+   "l": "Setup",
+   "nar": "Thirty people share one office fridge. Everyone adds food, few remove it, and nobody owns it."
+  },
+  {
+   "t": "list",
+   "cap": "Six weeks in",
+   "items": [
+    {
+     "x": "No room for lunches",
+     "s": "bad"
+    },
+    {
+     "x": "Smell and mold",
+     "s": "bad"
+    },
+    {
+     "x": "Everyone blames everyone",
+     "s": "bad"
+    }
+   ],
+   "l": "Problem",
+   "nar": "Within weeks it overflows. No room for lunches, a bad smell, and everyone blaming everyone. Each person's small contribution adds up to a mess."
+  },
+  {
+   "t": "list",
+   "cap": "Ostrom's fixes",
+   "items": [
+    {
+     "x": "Name an owner each week",
+     "s": "hot"
+    },
+    {
+     "x": "Date every label",
+     "s": "done"
+    },
+    {
+     "x": "Friday clean out, agreed by all",
+     "s": "done"
+    }
+   ],
+   "l": "Apply",
+   "nar": "Elinor Ostrom showed that groups can manage shared things with clear rules. Marta rotates an owner each week, asks for dates on labels, and sets a Friday clean out."
+  },
+  {
+   "t": "list",
+   "cap": "A month later",
+   "items": [
+    {
+     "x": "Space for every lunch",
+     "s": "done"
+    },
+    {
+     "x": "No smell, no blame",
+     "s": "done"
+    },
+    {
+     "x": "Rules take two minutes a week",
+     "s": "done"
+    }
+   ],
+   "l": "Result",
+   "nar": "A month later there is space for every lunch, and no more blame. The rules take about two minutes a week."
+  }
+ ]
+}

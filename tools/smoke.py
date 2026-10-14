@@ -12,7 +12,7 @@ async def main():
         await pg.goto(URL);await pg.wait_for_timeout(1200)
         await pg.click('[data-view=browse]')
         n=await pg.evaluate("document.querySelectorAll('#browseGrid .card').length")
-        await pg.click('#browseGrid .card[data-id="dilemma"] .watch');await pg.click('#plStart')
+        await pg.click('#browseGrid .card[data-id="commons"] .watch');await pg.click('#plStart')
         await pg.wait_for_timeout(6000)
         st=await pg.evaluate("document.getElementById('plStatus').textContent")
         sw=await pg.evaluate("navigator.serviceWorker.getRegistration().then(r=>!!r)")

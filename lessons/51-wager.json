@@ -1,0 +1,100 @@
+{
+ "n": 51,
+ "id": "wager",
+ "topic": "Other thinkers",
+ "secs": 25,
+ "title": "Asymmetric bets",
+ "src": "Blaise Pascal, Pensees, the wager (Brunschvicg 233)",
+ "idea": "Pascal argued that you should weigh the size of the payoffs, not only the odds. A small cost for a huge possible gain can be worth taking even at low probability.",
+ "apply": "Before you decline a long shot, ask what it costs if it fails and what it is worth if it works. Take cheap bets you can afford to lose.",
+ "remind": "Small cost, huge upside: take the bet.",
+ "motif": "wager",
+ "who": "Sana, who admires an author but fears emailing her.",
+ "scenes": [
+  {
+   "t": "list",
+   "cap": "Sana's idea",
+   "items": [
+    {
+     "x": "An author she admires"
+    },
+    {
+     "x": "She wants one piece of advice"
+    },
+    {
+     "x": "Writing to her feels pointless"
+    }
+   ],
+   "l": "Setup",
+   "nar": "Sana admires a well known author and wants one piece of advice from her. But she assumes the author would never reply."
+  },
+  {
+   "t": "bars",
+   "cap": "Her odds (illustrative)",
+   "max": 100,
+   "rows": [
+    {
+     "l": "Reply odds",
+     "v": 10,
+     "t": "Low"
+    },
+    {
+     "l": "Cost if ignored",
+     "v": 5,
+     "t": "One short email"
+    },
+    {
+     "l": "Value if it works",
+     "v": 90,
+     "t": "Huge",
+     "hot": 1
+    }
+   ],
+   "l": "Problem",
+   "nar": "The odds are low, maybe one in ten. But the cost of trying is one short email, and the value of a reply could be large."
+  },
+  {
+   "t": "split",
+   "blocks": [
+    {
+     "h": "The bet",
+     "tone": "good",
+     "items": [
+      "Cost: ten minutes, mild awkwardness",
+      "Upside: mentorship, an intro"
+     ]
+    },
+    {
+     "h": "The rule",
+     "tone": "good",
+     "items": [
+      "Small cost, huge upside",
+      "Take it, even at low odds"
+     ]
+    }
+   ],
+   "l": "Apply",
+   "nar": "Pascal weighed payoffs, not just odds. When the cost is small and the possible gain is huge, a low chance can still be a good bet. Sana writes the email."
+  },
+  {
+   "t": "list",
+   "cap": "What happened",
+   "items": [
+    {
+     "x": "Three sentences, one clear question",
+     "s": "done"
+    },
+    {
+     "x": "The author replies in two weeks",
+     "s": "done"
+    },
+    {
+     "x": "A call that changes her plans",
+     "s": "done"
+    }
+   ],
+   "l": "Result",
+   "nar": "She sends three sentences and one clear question. Two weeks later the author replies, and the call that follows changes her plans."
+  }
+ ]
+}

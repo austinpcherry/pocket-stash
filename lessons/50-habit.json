@@ -1,0 +1,86 @@
+{
+ "n": 50,
+ "id": "habit",
+ "topic": "Other thinkers",
+ "secs": 25,
+ "title": "We become what we practice",
+ "src": "Aristotle, Nicomachean Ethics II.1",
+ "idea": "Aristotle held that we become just by doing just acts and brave by doing brave acts. Character is built by repeated action, not by wishing.",
+ "apply": "Choose one trait you want. Define one small action that expresses it, and do it daily for two weeks.",
+ "remind": "Act your way into the person you want to be.",
+ "motif": "habit",
+ "who": "Hal, who wants to be more patient with his kids.",
+ "scenes": [
+  {
+   "t": "list",
+   "cap": "Hal's wish",
+   "items": [
+    {
+     "x": "He wants to be a patient father"
+    },
+    {
+     "x": "He snaps at bedtime"
+    },
+    {
+     "x": "Every night he promises to do better"
+    }
+   ],
+   "l": "Setup",
+   "nar": "Hal wants to be a patient father. At bedtime he snaps, and every night he promises to do better tomorrow."
+  },
+  {
+   "t": "chat",
+   "msgs": [
+    {
+     "f": "think",
+     "s": "bad",
+     "x": "I am just not a patient person."
+    },
+    {
+     "f": "sys",
+     "x": "A month of wishing has changed nothing."
+    }
+   ],
+   "l": "Problem",
+   "nar": "He decides he is just not a patient person. A month of wishing has changed nothing."
+  },
+  {
+   "t": "list",
+   "cap": "Aristotle's method",
+   "num": 1,
+   "items": [
+    {
+     "x": "Pick one trait: patience"
+    },
+    {
+     "x": "Pick one small act: three slow breaths before replying"
+    },
+    {
+     "x": "Repeat it daily for two weeks"
+    }
+   ],
+   "l": "Apply",
+   "nar": "Aristotle said we become just by doing just acts. Hal picks one small, patient act: three slow breaths before he replies at bedtime, every night."
+  },
+  {
+   "t": "list",
+   "cap": "Two months later",
+   "items": [
+    {
+     "x": "The breaths become automatic",
+     "s": "done"
+    },
+    {
+     "x": "Bedtime is calmer",
+     "s": "done"
+    },
+    {
+     "x": "His kids notice the change",
+     "s": "done"
+    }
+   ],
+   "l": "Result",
+   "nar": "Within weeks the breaths become automatic. Bedtime is calmer, and his kids notice. He did not wait to feel patient. He practiced it."
+  }
+ ]
+}

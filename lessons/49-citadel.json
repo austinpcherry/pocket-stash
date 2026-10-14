@@ -1,0 +1,97 @@
+{
+ "n": 49,
+ "id": "citadel",
+ "topic": "Stoicism",
+ "secs": 25,
+ "title": "The inner citadel",
+ "src": "Marcus Aurelius, Meditations 8.48; Pierre Hadot, The Inner Citadel",
+ "idea": "Marcus Aurelius pictured the calm mind as a fortress. Others can shout, but they cannot reach your judgments unless you let them.",
+ "apply": "When someone provokes you, pause and retreat to what you control: your judgment and your next action. Answer from there.",
+ "remind": "Retreat inward. Answer from your own ground.",
+ "motif": "citadel",
+ "who": "Zara, a nurse facing an angry family member after a hard shift.",
+ "scenes": [
+  {
+   "t": "chat",
+   "msgs": [
+    {
+     "f": "them",
+     "x": "This is unacceptable! Nobody tells us anything!"
+    },
+    {
+     "f": "think",
+     "s": "bad",
+     "x": "I have worked twelve hours straight."
+    }
+   ],
+   "cap": "End of a twelve hour shift",
+   "l": "Setup",
+   "nar": "Zara is finishing a twelve hour shift when a family member starts shouting at her. Nobody has told them anything, they say."
+  },
+  {
+   "t": "list",
+   "cap": "Her instinct",
+   "items": [
+    {
+     "x": "Snap back",
+     "s": "bad"
+    },
+    {
+     "x": "Take it personally",
+     "s": "bad"
+    },
+    {
+     "x": "Carry it home",
+     "s": "bad"
+    }
+   ],
+   "l": "Problem",
+   "nar": "Her first instinct is to snap back, take it personally, and carry it home. The shouting has taken over her mood."
+  },
+  {
+   "t": "split",
+   "blocks": [
+    {
+     "h": "Outside the walls",
+     "tone": "bad",
+     "items": [
+      "The shouting",
+      "Their opinion of her"
+     ],
+     "lose": 1
+    },
+    {
+     "h": "Inside the citadel",
+     "tone": "good",
+     "items": [
+      "My judgment",
+      "My next action",
+      "My tone"
+     ]
+    }
+   ],
+   "l": "Apply",
+   "nar": "Marcus Aurelius pictured the calm mind as a fortress. Zara retreats inside. The shouting is outside, and her judgment, her next step, and her tone are hers."
+  },
+  {
+   "t": "list",
+   "cap": "Zara's reply",
+   "items": [
+    {
+     "x": "Breathes once, lowers her voice",
+     "s": "done"
+    },
+    {
+     "x": "Explains what she can share",
+     "s": "done"
+    },
+    {
+     "x": "The family member calms down",
+     "s": "done"
+    }
+   ],
+   "l": "Result",
+   "nar": "She breathes once, lowers her voice, and explains what she can share. The family member calms, and Zara goes home without carrying it."
+  }
+ ]
+}

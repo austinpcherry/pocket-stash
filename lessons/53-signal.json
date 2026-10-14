@@ -1,0 +1,94 @@
+{
+ "n": 53,
+ "id": "signal",
+ "topic": "Game theory",
+ "secs": 25,
+ "title": "Costly signals",
+ "src": "Michael Spence, Job Market Signaling, 1973",
+ "idea": "Anyone can claim to be good. A signal is believable when it is costly to fake, so people trust proof that a weaker version of you could not produce.",
+ "apply": "To be believed, show evidence that is hard to fake: a sample, a track record, a guarantee. When judging others, discount cheap talk.",
+ "remind": "Cheap talk is ignored. Show proof.",
+ "motif": "signal",
+ "who": "Ken, a freelancer whose proposals sound like everyone else's.",
+ "scenes": [
+  {
+   "t": "chat",
+   "msgs": [
+    {
+     "f": "me",
+     "x": "I am reliable, detail oriented, and passionate."
+    },
+    {
+     "f": "them",
+     "x": "Thanks. Everyone says that."
+    }
+   ],
+   "cap": "Ken's proposal",
+   "l": "Setup",
+   "nar": "Ken, a freelancer, writes that he is reliable, detail oriented, and passionate. The client replies that everyone says that."
+  },
+  {
+   "t": "split",
+   "blocks": [
+    {
+     "h": "Cheap talk",
+     "tone": "bad",
+     "items": [
+      "Costs nothing to claim",
+      "Anyone can say it"
+     ]
+    },
+    {
+     "h": "What clients want",
+     "tone": "good",
+     "items": [
+      "Proof they can trust",
+      "Evidence hard to fake"
+     ]
+    }
+   ],
+   "l": "Problem",
+   "nar": "Words cost nothing, so they prove nothing. A client wants evidence that would be hard to fake."
+  },
+  {
+   "t": "list",
+   "cap": "Costly signals, Spence style",
+   "items": [
+    {
+     "x": "A free sample page, done well",
+     "s": "done"
+    },
+    {
+     "x": "Two client references to call",
+     "s": "done"
+    },
+    {
+     "x": "A fixed price and a refund promise",
+     "s": "done"
+    }
+   ],
+   "l": "Apply",
+   "nar": "Michael Spence showed that signals work when they are costly to fake. Ken offers a sample done well, two references, and a refund promise."
+  },
+  {
+   "t": "list",
+   "cap": "The client's reply",
+   "items": [
+    {
+     "x": "Calls a reference, glowing",
+     "s": "done"
+    },
+    {
+     "x": "Signs a pilot project",
+     "s": "done"
+    },
+    {
+     "x": "Ken wins without discounting",
+     "s": "done"
+    }
+   ],
+   "l": "Result",
+   "nar": "The client calls a reference, hears glowing words, and signs a pilot. Ken wins the job without cutting his price."
+  }
+ ]
+}
