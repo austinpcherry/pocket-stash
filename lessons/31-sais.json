@@ -1,0 +1,94 @@
+{
+ "n": 31,
+ "id": "sais",
+ "topic": "Other thinkers",
+ "secs": 25,
+ "title": "What do I know?",
+ "src": "Montaigne, Essays, Apology for Raymond Sebond",
+ "idea": "Montaigne took Que sais-je? as his motto. Hold your certainties loosely, because much of what we are sure of is less solid than it feels.",
+ "apply": "Before arguing a point, write down what would change your mind. If nothing would, you are not reasoning yet.",
+ "remind": "Hold your certainties loosely.",
+ "motif": "ask",
+ "who": "Greg, who is certain about everything online.",
+ "scenes": [
+  {
+   "l": "Setup",
+   "t": "chat",
+   "cap": "Greg, in a comment thread",
+   "msgs": [
+    {
+     "f": "me",
+     "x": "Anyone who disagrees is clueless."
+    },
+    {
+     "f": "them",
+     "x": "Have you looked at the data?"
+    }
+   ],
+   "nar": "Greg is sure of his view, and anyone who disagrees is clueless. A stranger asks whether he has looked at the data."
+  },
+  {
+   "l": "Problem",
+   "t": "list",
+   "cap": "Greg's evidence",
+   "items": [
+    {
+     "x": "A headline he read",
+     "s": "bad"
+    },
+    {
+     "x": "What his friends say",
+     "s": "bad"
+    },
+    {
+     "x": "A feeling",
+     "s": "bad"
+    }
+   ],
+   "nar": "When he checks, his evidence is a headline, what his friends say, and a feeling."
+  },
+  {
+   "l": "Apply",
+   "t": "split",
+   "blocks": [
+    {
+     "h": "Montaigne asked",
+     "tone": "good",
+     "items": [
+      "Que sais-je?",
+      "What do I actually know?"
+     ]
+    },
+    {
+     "h": "Greg writes down",
+     "tone": "good",
+     "items": [
+      "What would change my mind",
+      "Who disagrees and why"
+     ]
+    }
+   ],
+   "nar": "Montaigne's motto was, what do I know? Greg asks it, and writes down what would change his mind, and who disagrees and why."
+  },
+  {
+   "l": "Result",
+   "t": "list",
+   "cap": "A week later",
+   "items": [
+    {
+     "x": "Read the best opposing argument",
+     "s": "done"
+    },
+    {
+     "x": "Changed one position",
+     "s": "done"
+    },
+    {
+     "x": "Argues less, learns more",
+     "s": "done"
+    }
+   ],
+   "nar": "A week later, he reads the best argument against him, and changes one position. He argues less and learns more."
+  }
+ ]
+}

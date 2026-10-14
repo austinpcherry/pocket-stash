@@ -1,0 +1,92 @@
+{
+ "n": 20,
+ "id": "mean",
+ "topic": "Other thinkers",
+ "secs": 25,
+ "title": "The golden mean",
+ "src": "Aristotle, Nicomachean Ethics II",
+ "idea": "Virtue sits between two extremes, like courage between recklessness and cowardice. The right amount depends on the situation.",
+ "apply": "Pick a trait you struggle with, name its excess and its deficiency, and aim for the middle in one real situation today.",
+ "remind": "Find the middle. Not too much, not too little.",
+ "motif": "mean",
+ "who": "Sam, a new manager who swings between harsh and silent.",
+ "scenes": [
+  {
+   "l": "Setup",
+   "t": "list",
+   "cap": "Sam's week",
+   "items": [
+    {
+     "x": "Mon: blunt, harsh review",
+     "s": "bad"
+    },
+    {
+     "x": "Wed: says nothing, hopes it improves",
+     "s": "dim"
+    },
+    {
+     "x": "Fri: blows up",
+     "s": "bad"
+    }
+   ],
+   "nar": "Sam is a new manager who swings between extremes. Some days he is harsh, other days he says nothing at all."
+  },
+  {
+   "l": "Problem",
+   "t": "split",
+   "blocks": [
+    {
+     "h": "Too harsh",
+     "tone": "bad",
+     "items": [
+      "The team fears him"
+     ]
+    },
+    {
+     "h": "Too soft",
+     "tone": "bad",
+     "items": [
+      "Problems quietly grow"
+     ]
+    }
+   ],
+   "nar": "Aristotle taught that virtue sits between two extremes. Too harsh, and people fear you. Too soft, and problems grow."
+  },
+  {
+   "l": "Apply",
+   "t": "split",
+   "blocks": [
+    {
+     "h": "The middle: honest and kind",
+     "tone": "good",
+     "items": [
+      "Say it early",
+      "Say it specifically",
+      "Say it with care"
+     ]
+    }
+   ],
+   "nar": "The mean is not a half-measure. It is the right amount, at the right time: honest, specific, and delivered with care."
+  },
+  {
+   "l": "Result",
+   "t": "list",
+   "cap": "A month later",
+   "items": [
+    {
+     "x": "Feedback within a day",
+     "s": "done"
+    },
+    {
+     "x": "The team trusts him",
+     "s": "done"
+    },
+    {
+     "x": "Far fewer surprises",
+     "s": "done"
+    }
+   ],
+   "nar": "Sam gives feedback within a day, specific and kind. His team trusts him, and surprises become rare."
+  }
+ ]
+}

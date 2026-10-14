@@ -1,0 +1,90 @@
+{
+ "n": 15,
+ "id": "evening",
+ "topic": "Stoicism",
+ "secs": 25,
+ "title": "The evening review",
+ "src": "Seneca, On Anger 3.36",
+ "idea": "At the end of the day, look back honestly at what you did, without excuses and without harshness. Then adjust.",
+ "apply": "Tonight, answer three questions in one line each: what did I resist, what went well, where can I improve?",
+ "remind": "Review the day. Improve the next.",
+ "motif": "eve",
+ "who": "Jon, a manager who keeps repeating the same mistake.",
+ "scenes": [
+  {
+   "l": "Setup",
+   "t": "list",
+   "cap": "Jon's Monday",
+   "items": [
+    {
+     "x": "Snapped at Dev in standup"
+    },
+    {
+     "x": "Skipped lunch to finish a report"
+    },
+    {
+     "x": "Helped Maria with her pitch"
+    }
+   ],
+   "nar": "Jon has a busy day. He snaps at a teammate, skips lunch, and helps a colleague with her pitch."
+  },
+  {
+   "l": "Problem",
+   "t": "list",
+   "cap": "Without reflection",
+   "items": [
+    {
+     "x": "Monday: snapped at Dev",
+     "s": "bad"
+    },
+    {
+     "x": "Wednesday: snapped at Dev",
+     "s": "bad"
+    },
+    {
+     "x": "Friday: snapped at Dev",
+     "s": "bad"
+    }
+   ],
+   "nar": "Without reflection, the same mistake repeats. He snaps on Monday, again on Wednesday, and again on Friday, and never sees the pattern."
+  },
+  {
+   "l": "Apply",
+   "t": "list",
+   "num": 1,
+   "cap": "Seneca's evening questions",
+   "items": [
+    {
+     "x": "What did I resist today?"
+    },
+    {
+     "x": "What did I do well?"
+    },
+    {
+     "x": "Where can I improve?"
+    }
+   ],
+   "nar": "So Jon borrows Seneca's habit. Each evening he asks three questions: what did I resist today, what went well, and where can I improve?"
+  },
+  {
+   "l": "Result",
+   "t": "list",
+   "cap": "Two weeks later",
+   "items": [
+    {
+     "x": "Notices: he snaps when hungry",
+     "s": "done"
+    },
+    {
+     "x": "Protects his lunch break",
+     "s": "done"
+    },
+    {
+     "x": "No snapping for two weeks",
+     "s": "done"
+    }
+   ],
+   "nar": "Within a week he notices he snaps when he is hungry. He protects his lunch break, and two weeks later the pattern is gone."
+  }
+ ]
+}

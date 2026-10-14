@@ -1,0 +1,87 @@
+{
+ "n": 4,
+ "id": "twominute",
+ "topic": "Habits",
+ "secs": 20,
+ "title": "Two-minute rule",
+ "src": "David Allen, Getting Things Done",
+ "idea": "If a task takes under two minutes, do it now. To start a habit, shrink it to two minutes.",
+ "apply": "Send that short reply right now. Then make your new habit its two-minute version: one page, one stretch, one set.",
+ "remind": "Make it small enough to start.",
+ "motif": "ring",
+ "who": "Theo, buried in tiny tasks and a habit that never starts.",
+ "scenes": [
+  {
+   "l": "Setup",
+   "t": "list",
+   "cap": "Theo's tiny tasks",
+   "items": [
+    {
+     "x": "Reply 'Thursday works'"
+    },
+    {
+     "x": "Put the mug in the dishwasher"
+    },
+    {
+     "x": "Sign the permission form"
+    }
+   ],
+   "nar": "Theo's day is full of tiny tasks. Each takes under two minutes, so he keeps putting them off."
+  },
+  {
+   "l": "Problem",
+   "t": "big",
+   "big": "12",
+   "count": {
+    "from": 0,
+    "to": 12
+   },
+   "cap": "tiny tasks piled up by Friday",
+   "sub": "The pile feels heavier than the work.",
+   "nar": "By Friday they have piled up into twelve nagging things, and the pile feels heavier than the work itself."
+  },
+  {
+   "l": "Apply",
+   "t": "list",
+   "cap": "Done the moment they show up",
+   "items": [
+    {
+     "x": "Reply 'Thursday works'",
+     "s": "done"
+    },
+    {
+     "x": "Put the mug in the dishwasher",
+     "s": "done"
+    },
+    {
+     "x": "Sign the permission form",
+     "s": "done"
+    }
+   ],
+   "nar": "Now he follows one rule. If it takes under two minutes, do it right now. The pile never forms."
+  },
+  {
+   "l": "Result",
+   "t": "split",
+   "blocks": [
+    {
+     "h": "Stretch for 30 minutes",
+     "tone": "bad",
+     "lose": 1,
+     "items": [
+      "Never starts"
+     ]
+    },
+    {
+     "h": "Unroll the mat for 2 minutes",
+     "tone": "good",
+     "items": [
+      "Starts every day",
+      "Often keeps going"
+     ]
+    }
+   ],
+   "nar": "He shrinks his new habit the same way. Not thirty minutes of stretching. Just unroll the mat for two minutes."
+  }
+ ]
+}

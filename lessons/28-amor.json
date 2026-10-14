@@ -1,0 +1,83 @@
+{
+ "n": 28,
+ "id": "amor",
+ "topic": "Other thinkers",
+ "secs": 25,
+ "title": "Amor fati",
+ "src": "Nietzsche, The Gay Science 276",
+ "idea": "Love your fate. Do not just put up with what happens. Want it, including the hard parts, because it is your life.",
+ "apply": "Take one thing you resent from the past year and write one sentence on what it gave you.",
+ "remind": "Do not just endure it. Embrace it.",
+ "motif": "embrace",
+ "who": "Lena, who still resents being laid off last year.",
+ "scenes": [
+  {
+   "l": "Setup",
+   "t": "big",
+   "big": "1 year",
+   "cap": "since Lena was laid off",
+   "sub": "She still replays it.",
+   "nar": "A year ago, Lena was laid off. She still replays it, and she wishes it had never happened."
+  },
+  {
+   "l": "Problem",
+   "t": "split",
+   "blocks": [
+    {
+     "h": "Endure it",
+     "tone": "bad",
+     "items": [
+      "Wish it away",
+      "Stay bitter"
+     ]
+    },
+    {
+     "h": "Embrace it",
+     "tone": "good",
+     "items": [
+      "Ask what it gave me",
+      "Use it"
+     ]
+    }
+   ],
+   "nar": "Nietzsche urged more than endurance. Not just putting up with fate, but loving it. Wishing it away keeps her stuck."
+  },
+  {
+   "l": "Apply",
+   "t": "list",
+   "cap": "What the layoff gave her",
+   "items": [
+    {
+     "x": "A push to leave a job she disliked"
+    },
+    {
+     "x": "Time to learn design"
+    },
+    {
+     "x": "Courage she did not know she had"
+    }
+   ],
+   "nar": "So Lena asks what it gave her. A push to leave a job she disliked. Time to learn design. And courage she did not know she had."
+  },
+  {
+   "l": "Result",
+   "t": "list",
+   "cap": "Her new sentence",
+   "items": [
+    {
+     "x": "I would not erase it.",
+     "s": "done"
+    },
+    {
+     "x": "Freelance design, three clients",
+     "s": "done"
+    },
+    {
+     "x": "The bitterness is gone",
+     "s": "done"
+    }
+   ],
+   "nar": "She now says, I would not erase it. She has three design clients, and the bitterness is gone."
+  }
+ ]
+}

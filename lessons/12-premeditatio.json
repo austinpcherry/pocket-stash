@@ -1,0 +1,92 @@
+{
+ "n": 12,
+ "id": "premeditatio",
+ "topic": "Stoicism",
+ "secs": 25,
+ "title": "Premeditatio malorum",
+ "src": "Seneca, Letters to Lucilius",
+ "idea": "Rehearse what could go wrong before it does. When you have already faced the setback in your mind, it loses its power to shock you.",
+ "apply": "Before a big event, list three ways it could fail and decide your response to each.",
+ "remind": "Rehearse the setback. Then it cannot surprise you.",
+ "motif": "pre",
+ "who": "Priya, preparing a live demo for her company's board.",
+ "scenes": [
+  {
+   "l": "Setup",
+   "t": "list",
+   "cap": "Priya's plan for Tuesday",
+   "items": [
+    {
+     "x": "Live demo of the new dashboard"
+    },
+    {
+     "x": "Live data, live internet"
+    },
+    {
+     "x": "Ten board members watching"
+    }
+   ],
+   "nar": "Priya will demo a new dashboard live to the board on Tuesday. On paper, the plan looks perfect."
+  },
+  {
+   "l": "Problem",
+   "t": "list",
+   "cap": "What nobody planned for",
+   "items": [
+    {
+     "x": "The Wi-Fi drops mid-demo",
+     "s": "bad"
+    },
+    {
+     "x": "The live data will not load",
+     "s": "bad"
+    },
+    {
+     "x": "No backup, long silence",
+     "s": "bad"
+    }
+   ],
+   "nar": "Most people stop there. If the Wi-Fi drops or the data fails, they freeze, and a long silence fills the room."
+  },
+  {
+   "l": "Apply",
+   "t": "list",
+   "cap": "Rehearse the failures",
+   "items": [
+    {
+     "x": "Wi-Fi drops",
+     "y": "Offline recording ready"
+    },
+    {
+     "x": "Data fails",
+     "y": "Screenshots saved"
+    },
+    {
+     "x": "Laptop dies",
+     "y": "Second laptop charged"
+    }
+   ],
+   "nar": "So Priya does what Seneca advised. She imagines it going wrong ahead of time, and prepares an answer to each failure."
+  },
+  {
+   "l": "Result",
+   "t": "list",
+   "cap": "Tuesday, minute six",
+   "items": [
+    {
+     "x": "The Wi-Fi drops",
+     "s": "bad"
+    },
+    {
+     "x": "She plays the offline recording",
+     "s": "done"
+    },
+    {
+     "x": "The board never notices",
+     "s": "done"
+    }
+   ],
+   "nar": "At minute six, the Wi-Fi drops. She calmly plays the recording, and the board never notices. The failure had already happened in her mind."
+  }
+ ]
+}

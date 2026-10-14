@@ -1,0 +1,83 @@
+{
+ "n": 8,
+ "id": "first",
+ "topic": "Thinking",
+ "secs": 25,
+ "title": "First principles",
+ "src": "Aristotle, Metaphysics, and later engineering practice",
+ "idea": "Break a problem down to what is certainly true, then build up from there instead of copying how it has always been done.",
+ "apply": "Write the problem. Cross out every assumption. Keep only what you know is true and rebuild the plan from that.",
+ "remind": "Ask what is actually true. Then build from there.",
+ "motif": "fp",
+ "who": "Dee, who thinks getting fit needs a gym and an hour a day.",
+ "scenes": [
+  {
+   "l": "Setup",
+   "t": "list",
+   "cap": "Dee's plan to get fit",
+   "items": [
+    {
+     "x": "Join a gym: $60 a month"
+    },
+    {
+     "x": "Find an hour every single day"
+    },
+    {
+     "x": "Buy the right gear"
+    }
+   ],
+   "nar": "Dee wants to get fit. Her plan says she needs a gym, an hour every day, and new gear. She keeps putting it off."
+  },
+  {
+   "l": "Problem",
+   "t": "split",
+   "blocks": [
+    {
+     "h": "Assumed",
+     "tone": "bad",
+     "lose": 1,
+     "items": [
+      "I need a gym",
+      "I need an hour a day"
+     ]
+    },
+    {
+     "h": "Actually true",
+     "tone": "good",
+     "items": [
+      "Muscles need load a few times a week",
+      "The heart needs a raised pulse",
+      "I have 20 minutes before work"
+     ]
+    }
+   ],
+   "nar": "So she crosses out what she assumed and writes down only what is true. Muscles need load. The heart needs a raised pulse. And she has twenty minutes before work."
+  },
+  {
+   "l": "Apply",
+   "t": "list",
+   "num": 1,
+   "cap": "Rebuilt from what is true",
+   "items": [
+    {
+     "x": "20-minute home circuit"
+    },
+    {
+     "x": "Pushups, squats, jumping jacks"
+    },
+    {
+     "x": "Monday, Wednesday, Friday"
+    }
+   ],
+   "nar": "Built from that, her plan becomes a twenty minute home circuit, on Monday, Wednesday and Friday."
+  },
+  {
+   "l": "Result",
+   "t": "big",
+   "big": "3 weeks",
+   "cap": "without a missed session",
+   "sub": "The plan fits her real life.",
+   "nar": "Three weeks in, she has not missed a session. The plan fits her real life, so she keeps it."
+  }
+ ]
+}

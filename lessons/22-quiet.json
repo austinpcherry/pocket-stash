@@ -1,0 +1,82 @@
+{
+ "n": 22,
+ "id": "quiet",
+ "topic": "Other thinkers",
+ "secs": 25,
+ "title": "Sitting quietly alone",
+ "src": "Pascal, Pensées",
+ "idea": "Pascal argued that much human restlessness comes from being unable to sit quietly alone. We chase distraction to avoid ourselves.",
+ "apply": "Sit for ten minutes with no phone, book, or music. Notice the urge to escape, and stay.",
+ "remind": "Learn to sit alone, quietly.",
+ "motif": "room",
+ "who": "Mia, who cannot wait for a coffee without her phone.",
+ "scenes": [
+  {
+   "l": "Setup",
+   "t": "list",
+   "cap": "Mia's free minutes",
+   "items": [
+    {
+     "x": "Waiting for coffee: phone"
+    },
+    {
+     "x": "In the elevator: phone"
+    },
+    {
+     "x": "A quiet evening: phone and TV"
+    }
+   ],
+   "nar": "Mia fills every free minute. Waiting for coffee, the elevator, even a quiet evening, all with a screen."
+  },
+  {
+   "l": "Problem",
+   "t": "big",
+   "big": "0",
+   "count": {
+    "from": 20,
+    "to": 0
+   },
+   "cap": "minutes of true quiet in her day",
+   "sub": "Pascal saw this restlessness in the 1600s.",
+   "nar": "She has zero minutes of true quiet in her day. Pascal noticed this restlessness in the seventeenth century."
+  },
+  {
+   "l": "Apply",
+   "t": "list",
+   "num": 1,
+   "cap": "Pascal's challenge, shrunk",
+   "items": [
+    {
+     "x": "Ten minutes, phone in another room"
+    },
+    {
+     "x": "Sit. No screen, no book."
+    },
+    {
+     "x": "Notice the urge to escape"
+    }
+   ],
+   "nar": "So she tries it. Ten minutes, phone in another room, no book. She sits, and notices the urge to escape."
+  },
+  {
+   "l": "Result",
+   "t": "list",
+   "cap": "Two weeks in",
+   "items": [
+    {
+     "x": "Day 1: restless",
+     "s": "bad"
+    },
+    {
+     "x": "Day 7: calmer",
+     "s": "done"
+    },
+    {
+     "x": "Day 14: ideas show up",
+     "s": "done"
+    }
+   ],
+   "nar": "The first day is restless. By the end of week one she is calmer, and by week two, ideas begin to show up in the quiet."
+  }
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "n": 25,
+ "id": "impression",
+ "topic": "Stoicism",
+ "secs": 25,
+ "title": "Pause on the impression",
+ "src": "Epictetus, Enchiridion 1 and 5",
+ "idea": "We are upset less by events than by the judgments we add to them. Between what happens and your reaction, there is a gap.",
+ "apply": "When something stings, say: this is an impression, not yet the truth. Then ask what actually happened.",
+ "remind": "Pause. Separate the event from the story.",
+ "motif": "gap",
+ "who": "Tom, whose boss replies with one word.",
+ "scenes": [
+  {
+   "l": "Setup",
+   "t": "chat",
+   "cap": "Tom's inbox",
+   "msgs": [
+    {
+     "f": "me",
+     "x": "Here is the report you asked for."
+    },
+    {
+     "f": "them",
+     "x": "Fine."
+    }
+   ],
+   "nar": "Tom sends his boss a report. The reply is a single word. Fine."
+  },
+  {
+   "l": "Problem",
+   "t": "chat",
+   "msgs": [
+    {
+     "f": "think",
+     "s": "bad",
+     "x": "She is angry."
+    },
+    {
+     "f": "think",
+     "s": "bad",
+     "x": "I am about to be let go."
+    }
+   ],
+   "nar": "His mind races. She is angry. I am about to be let go. In minutes, one word has become a disaster."
+  },
+  {
+   "l": "Apply",
+   "t": "split",
+   "blocks": [
+    {
+     "h": "What happened",
+     "tone": "good",
+     "items": [
+      "She wrote \"Fine.\""
+     ]
+    },
+    {
+     "h": "The story I added",
+     "tone": "bad",
+     "lose": 1,
+     "items": [
+      "She is angry",
+      "I will be let go"
+     ]
+    }
+   ],
+   "nar": "Then he remembers Epictetus. This is an impression, not yet the truth. What actually happened? She wrote one word."
+  },
+  {
+   "l": "Result",
+   "t": "list",
+   "cap": "What he did next",
+   "items": [
+    {
+     "x": "Asked: any changes needed?",
+     "s": "done"
+    },
+    {
+     "x": "Boss: No, it was great.",
+     "s": "done"
+    },
+    {
+     "x": "Saved an evening of worry",
+     "s": "done"
+    }
+   ],
+   "nar": "He simply asks if she wants any changes. She says it was great. He saved himself an evening of worry."
+  }
+ ]
+}

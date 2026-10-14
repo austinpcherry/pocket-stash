@@ -1,0 +1,85 @@
+{
+ "n": 9,
+ "id": "inversion",
+ "topic": "Thinking",
+ "secs": 20,
+ "title": "Inversion",
+ "src": "Charlie Munger, after the mathematician Carl Jacobi",
+ "idea": "Solve a problem backward. Ask how you would make it fail, then avoid exactly that.",
+ "apply": "Before a project, list five ways to guarantee it fails. Remove each one from your plan.",
+ "remind": "Ask how it fails. Then do not.",
+ "motif": "flip",
+ "who": "Aisha, twelve days from a product launch.",
+ "scenes": [
+  {
+   "l": "Setup",
+   "t": "big",
+   "big": "12",
+   "count": {
+    "from": 0,
+    "to": 12
+   },
+   "cap": "days until launch",
+   "sub": "How do we make it succeed? Vague answers.",
+   "nar": "Aisha's team launches a new product in twelve days. The usual question, how do we make it succeed, gets vague answers."
+  },
+  {
+   "l": "Problem",
+   "t": "list",
+   "num": 1,
+   "cap": "How to guarantee failure",
+   "items": [
+    {
+     "x": "Skip customer testing"
+    },
+    {
+     "x": "Tell nobody until launch day"
+    },
+    {
+     "x": "Let one person hold all the knowledge"
+    }
+   ],
+   "nar": "So she flips it. How would we guarantee failure? Skip testing. Tell nobody until launch day. Let one person hold all the knowledge."
+  },
+  {
+   "l": "Apply",
+   "t": "list",
+   "cap": "Turn each failure around",
+   "items": [
+    {
+     "x": "Skip testing",
+     "y": "Test with five customers"
+    },
+    {
+     "x": "Tell nobody",
+     "y": "Email the waitlist on Friday"
+    },
+    {
+     "x": "One expert",
+     "y": "Write a one page runbook"
+    }
+   ],
+   "nar": "Then she turns each failure around. Test with five customers. Email the waitlist on Friday. Write a one page runbook."
+  },
+  {
+   "l": "Result",
+   "t": "list",
+   "cap": "Launch day",
+   "items": [
+    {
+     "x": "Testing caught 2 bugs early",
+     "s": "done"
+    },
+    {
+     "x": "Waitlist email: 300 sign-ups",
+     "s": "done"
+    },
+    {
+     "x": "Runbook fixed an issue in 10 minutes",
+     "s": "done"
+    }
+   ],
+   "nar": "Launch day goes smoothly. Testing caught two bugs early, the waitlist showed up, and the runbook fixed one issue in ten minutes."
+  }
+ ]
+}

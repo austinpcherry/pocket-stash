@@ -1,0 +1,91 @@
+{
+ "n": 18,
+ "id": "opinion",
+ "topic": "Schopenhauer",
+ "secs": 25,
+ "title": "Other people's opinions",
+ "src": "Schopenhauer, The Wisdom of Life, ch. 4",
+ "idea": "Schopenhauer saw concern for what others think as a major source of needless worry and vanity. Their opinion is not your life.",
+ "apply": "Before you drop something because of what people might say, ask whether that opinion is real or imagined. Then do it anyway.",
+ "remind": "Care less about imagined opinions. Make the thing.",
+ "motif": "ops",
+ "who": "Raj, who paints but never shares his work.",
+ "scenes": [
+  {
+   "l": "Setup",
+   "t": "chat",
+   "cap": "Raj, every time he considers posting",
+   "msgs": [
+    {
+     "f": "think",
+     "s": "bad",
+     "x": "What will everyone think?"
+    }
+   ],
+   "nar": "Raj has painted for years, but he never shares his work. He keeps wondering what everyone would think."
+  },
+  {
+   "l": "Problem",
+   "t": "list",
+   "cap": "What he imagines people will say",
+   "items": [
+    {
+     "x": "'It looks amateur'",
+     "s": "bad"
+    },
+    {
+     "x": "'He is showing off'",
+     "s": "bad"
+    },
+    {
+     "x": "'Nobody cares'",
+     "s": "bad"
+    }
+   ],
+   "nar": "He imagines they will say it looks amateur, or that he is showing off, or that nobody cares. He has no evidence for any of it."
+  },
+  {
+   "l": "Apply",
+   "t": "split",
+   "blocks": [
+    {
+     "h": "The imagined audience",
+     "tone": "bad",
+     "lose": 1,
+     "items": [
+      "Harsh, constant, invented"
+     ]
+    },
+    {
+     "h": "The real audience",
+     "tone": "good",
+     "items": [
+      "Most people are busy with their own lives",
+      "A few will care, and say so"
+     ]
+    }
+   ],
+   "nar": "Schopenhauer saw much of our worry as concern for other people's opinions. In reality, most people are busy with their own lives, and a few will genuinely care."
+  },
+  {
+   "l": "Result",
+   "t": "list",
+   "cap": "Raj, six weeks in",
+   "items": [
+    {
+     "x": "Posts one painting a week",
+     "s": "done"
+    },
+    {
+     "x": "Gets three kind messages",
+     "s": "done"
+    },
+    {
+     "x": "First commission request",
+     "s": "done"
+    }
+   ],
+   "nar": "Raj posts one painting a week. Kind messages arrive, then a commission request. The harsh audience was imaginary."
+  }
+ ]
+}

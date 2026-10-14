@@ -1,0 +1,85 @@
+{
+ "n": 21,
+ "id": "recurrence",
+ "topic": "Other thinkers",
+ "secs": 25,
+ "title": "Eternal recurrence",
+ "src": "Nietzsche, The Gay Science 341",
+ "idea": "Imagine living your life again, exactly as it is, forever. If that fills you with dread, something needs to change.",
+ "apply": "Look at a typical day this week and ask whether you would live it on repeat. Change one part of it.",
+ "remind": "Live as if you would choose it again, forever.",
+ "motif": "loop8",
+ "who": "Alex, who scrolls his phone every evening without noticing.",
+ "scenes": [
+  {
+   "l": "Setup",
+   "t": "big",
+   "big": "3 hours",
+   "cap": "on his phone, every evening",
+   "sub": "Without really noticing.",
+   "nar": "Alex scrolls his phone for three hours every evening, without really noticing."
+  },
+  {
+   "l": "Problem",
+   "t": "list",
+   "num": 1,
+   "cap": "Nietzsche's test",
+   "items": [
+    {
+     "x": "Imagine this life repeating, forever"
+    },
+    {
+     "x": "The same evenings, again and again"
+    },
+    {
+     "x": "Would you say yes?"
+    }
+   ],
+   "nar": "Nietzsche proposed a test. Imagine your life repeating exactly as it is, forever. The same evenings, again and again. Would you say yes?"
+  },
+  {
+   "l": "Apply",
+   "t": "split",
+   "blocks": [
+    {
+     "h": "Evenings as they are",
+     "tone": "bad",
+     "lose": 1,
+     "items": [
+      "Three hours of scrolling, forever"
+     ]
+    },
+    {
+     "h": "Evenings I would repeat",
+     "tone": "good",
+     "items": [
+      "Cook a real dinner",
+      "Practice guitar",
+      "Call a friend"
+     ]
+    }
+   ],
+   "nar": "Alex realizes he would not choose his evenings on repeat. So he designs ones he would: cooking, guitar, and a call with a friend."
+  },
+  {
+   "l": "Result",
+   "t": "list",
+   "cap": "One month later",
+   "items": [
+    {
+     "x": "Cooks three nights a week",
+     "s": "done"
+    },
+    {
+     "x": "Guitar, thirty minutes a day",
+     "s": "done"
+    },
+    {
+     "x": "Calls a friend every Sunday",
+     "s": "done"
+    }
+   ],
+   "nar": "Within a month his evenings look different. They are ones he would happily live again."
+  }
+ ]
+}

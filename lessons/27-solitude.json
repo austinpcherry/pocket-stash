@@ -1,0 +1,88 @@
+{
+ "n": 27,
+ "id": "solitude",
+ "topic": "Schopenhauer",
+ "secs": 25,
+ "title": "The value of solitude",
+ "src": "Schopenhauer, Counsels and Maxims",
+ "idea": "Schopenhauer argued that you can only be fully yourself when alone, and that a person with a rich inner life needs others less.",
+ "apply": "Block one solo hour a week for something you choose, without an audience or a screen.",
+ "remind": "Protect time alone. It is where you become yourself.",
+ "motif": "solo",
+ "who": "Hana, who is rarely alone and rarely herself.",
+ "scenes": [
+  {
+   "l": "Setup",
+   "t": "list",
+   "cap": "Hana's week",
+   "items": [
+    {
+     "x": "Work, then drinks with colleagues"
+    },
+    {
+     "x": "Weekends full of plans"
+    },
+    {
+     "x": "Always a group chat open"
+    }
+   ],
+   "nar": "Hana's week is full. Work, then drinks, then weekend plans, and a group chat that never closes."
+  },
+  {
+   "l": "Problem",
+   "t": "list",
+   "cap": "What she notices",
+   "items": [
+    {
+     "x": "Cannot remember what she likes",
+     "s": "bad"
+    },
+    {
+     "x": "Agrees with whoever is nearby",
+     "s": "bad"
+    },
+    {
+     "x": "Feels tired but unsure why",
+     "s": "bad"
+    }
+   ],
+   "nar": "She notices she cannot say what she actually likes. She agrees with whoever is nearby, and feels tired without knowing why."
+  },
+  {
+   "l": "Apply",
+   "t": "split",
+   "blocks": [
+    {
+     "h": "One hour a week, alone",
+     "tone": "good",
+     "items": [
+      "Phone away",
+      "Something she chooses",
+      "No audience"
+     ]
+    }
+   ],
+   "nar": "Schopenhauer argued you can only be fully yourself when alone. So Hana books one hour a week, phone away, doing something only she chose."
+  },
+  {
+   "l": "Result",
+   "t": "list",
+   "cap": "Two months in",
+   "items": [
+    {
+     "x": "Took up watercolor",
+     "s": "done"
+    },
+    {
+     "x": "Said no to two plans",
+     "s": "done"
+    },
+    {
+     "x": "Feels more like herself",
+     "s": "done"
+    }
+   ],
+   "nar": "Two months in, she has taken up watercolor, said no to two plans, and feels more like herself."
+  }
+ ]
+}

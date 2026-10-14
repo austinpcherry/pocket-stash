@@ -1,0 +1,82 @@
+{
+ "n": 13,
+ "id": "obstacle",
+ "topic": "Stoicism",
+ "secs": 25,
+ "title": "The obstacle is the way",
+ "src": "Marcus Aurelius, Meditations 5.20",
+ "idea": "What blocks your path can become your path. A setback gives you something to work with.",
+ "apply": "When blocked, ask what this obstacle makes possible, then take the first small step through it.",
+ "remind": "Use the obstacle. It is the path.",
+ "motif": "stairs",
+ "who": "Kai, a freelance developer who just lost his biggest client.",
+ "scenes": [
+  {
+   "l": "Setup",
+   "t": "big",
+   "big": "60%",
+   "cap": "of Kai's income, gone in one email",
+   "sub": "His biggest client is leaving.",
+   "nar": "Kai is a freelance developer. One email arrives, and his biggest client, sixty percent of his income, is gone."
+  },
+  {
+   "l": "Problem",
+   "t": "chat",
+   "msgs": [
+    {
+     "f": "think",
+     "s": "bad",
+     "x": "This ruins everything."
+    },
+    {
+     "f": "sys",
+     "x": "Two days of complaining. No new work."
+    }
+   ],
+   "nar": "His first reaction is that this ruins everything. He spends two days stuck in complaint, and no new work arrives."
+  },
+  {
+   "l": "Apply",
+   "t": "split",
+   "blocks": [
+    {
+     "h": "The obstacle",
+     "tone": "bad",
+     "items": [
+      "I have no main client"
+     ]
+    },
+    {
+     "h": "What it makes possible",
+     "tone": "good",
+     "items": [
+      "Time to find better clients",
+      "A reason to raise my rates",
+      "Spreading my risk"
+     ]
+    }
+   ],
+   "nar": "Then he turns it around. The obstacle is also the material. It frees up time, gives him a reason to raise his rates, and pushes him to spread his risk."
+  },
+  {
+   "l": "Result",
+   "t": "list",
+   "cap": "Three months later",
+   "items": [
+    {
+     "x": "Pitched 12 new clients",
+     "s": "done"
+    },
+    {
+     "x": "Raised rates 20%",
+     "s": "done"
+    },
+    {
+     "x": "No client above 30% of income",
+     "s": "done"
+    }
+   ],
+   "nar": "Three months later he has several clients, none above thirty percent of his income, at higher rates. The setback became the route."
+  }
+ ]
+}

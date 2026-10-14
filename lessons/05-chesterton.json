@@ -1,0 +1,83 @@
+{
+ "n": 5,
+ "id": "chesterton",
+ "topic": "Decisions",
+ "secs": 20,
+ "title": "Chesterton's fence",
+ "src": "G. K. Chesterton, The Thing, 1929",
+ "idea": "Do not remove a fence until you know why it was put up.",
+ "apply": "Before you cut a rule, process, or habit, find out what it was meant to solve and who set it up.",
+ "remind": "Know why it is there before you take it down.",
+ "motif": "fence",
+ "who": "Ravi, a new ops manager with a pointless looking approval step.",
+ "scenes": [
+  {
+   "l": "Setup",
+   "t": "list",
+   "cap": "How an order gets placed",
+   "items": [
+    {
+     "x": "Order request"
+    },
+    {
+     "x": "Manager approves"
+    },
+    {
+     "x": "Finance signs off on every order",
+     "s": "hot"
+    },
+    {
+     "x": "Order placed"
+    }
+   ],
+   "nar": "Ravi is the new operations manager. He finds a step where Finance signs off on every small order, and it looks pointless."
+  },
+  {
+   "l": "Problem",
+   "t": "split",
+   "blocks": [
+    {
+     "h": "Remove it today",
+     "tone": "bad",
+     "items": [
+      "Orders speed up",
+      "A month later: one vendor is paid twice"
+     ]
+    }
+   ],
+   "nar": "He deletes the step. Orders speed up. A month later the company pays the same vendor twice, because that sign-off was catching duplicates."
+  },
+  {
+   "l": "Apply",
+   "t": "split",
+   "blocks": [
+    {
+     "h": "Ask first",
+     "tone": "good",
+     "items": [
+      "Who added this step?",
+      "What problem did it solve?",
+      "Is that problem gone?"
+     ]
+    }
+   ],
+   "nar": "Next time he asks first. Who added it? What problem did it solve? Is that problem gone?"
+  },
+  {
+   "l": "Result",
+   "t": "list",
+   "cap": "What he changes",
+   "items": [
+    {
+     "x": "Keep the duplicate check",
+     "s": "hot"
+    },
+    {
+     "x": "Drop sign-off under $50",
+     "s": "hot"
+    }
+   ],
+   "nar": "He learns it caught duplicates, so he keeps that check. But he drops the sign-off for orders under fifty dollars."
+  }
+ ]
+}

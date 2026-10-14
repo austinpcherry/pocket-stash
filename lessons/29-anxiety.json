@@ -1,0 +1,92 @@
+{
+ "n": 29,
+ "id": "anxiety",
+ "topic": "Other thinkers",
+ "secs": 25,
+ "title": "The dizziness of freedom",
+ "src": "Kierkegaard, The Concept of Anxiety",
+ "idea": "Kierkegaard called anxiety the dizziness of freedom. The feeling comes from having real choices, so it points at what matters.",
+ "apply": "When anxious before a decision, ask which possibility is making you dizzy, and take one small step toward it.",
+ "remind": "Anxiety can be a sign that your choice matters.",
+ "motif": "edge",
+ "who": "Marco, who cannot decide whether to leave his safe job.",
+ "scenes": [
+  {
+   "l": "Setup",
+   "t": "list",
+   "cap": "Marco's options",
+   "items": [
+    {
+     "x": "Stay in the safe job"
+    },
+    {
+     "x": "Start his own studio"
+    },
+    {
+     "x": "Keep thinking about it"
+    }
+   ],
+   "nar": "Marco has a safe job and a dream of starting his own studio. For months, he just keeps thinking about it."
+  },
+  {
+   "l": "Problem",
+   "t": "chat",
+   "msgs": [
+    {
+     "f": "think",
+     "s": "bad",
+     "x": "Why am I so anxious?"
+    },
+    {
+     "f": "think",
+     "s": "bad",
+     "x": "Something must be wrong with me."
+    }
+   ],
+   "nar": "Whenever he imagines leaving, anxiety spikes. He wonders what is wrong with him."
+  },
+  {
+   "l": "Apply",
+   "t": "split",
+   "blocks": [
+    {
+     "h": "Not a defect",
+     "tone": "good",
+     "items": [
+      "Anxiety shows a real choice",
+      "It points at what matters"
+     ]
+    },
+    {
+     "h": "One small step",
+     "tone": "good",
+     "items": [
+      "Draft a one-page plan",
+      "Talk to one client"
+     ]
+    }
+   ],
+   "nar": "Kierkegaard called anxiety the dizziness of freedom. Marco reads his as a sign that the choice matters, and takes one small step: a one page plan."
+  },
+  {
+   "l": "Result",
+   "t": "list",
+   "cap": "Six months later",
+   "items": [
+    {
+     "x": "Two pilot clients",
+     "s": "done"
+    },
+    {
+     "x": "Kept the job part time",
+     "s": "done"
+    },
+    {
+     "x": "The dizziness settled",
+     "s": "done"
+    }
+   ],
+   "nar": "Six months later, he has two pilot clients and a part time job as a safety net. The dizziness settles as he moves."
+  }
+ ]
+}

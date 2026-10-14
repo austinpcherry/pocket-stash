@@ -1,0 +1,78 @@
+{
+ "n": 23,
+ "id": "above",
+ "topic": "Stoicism",
+ "secs": 25,
+ "title": "The view from above",
+ "src": "Marcus Aurelius, Meditations 9.30",
+ "idea": "Picture your situation from far above: the city, the country, the planet, the centuries. Your worry shrinks to its true size.",
+ "apply": "When a problem feels huge, zoom out in steps: this week, this year, this lifetime. Then act on what is left.",
+ "remind": "Zoom out. The problem gets its true size.",
+ "motif": "above",
+ "who": "Nora, a nervous first-time manager the night before a big review.",
+ "scenes": [
+  {
+   "l": "Setup",
+   "t": "list",
+   "cap": "Nora's evening",
+   "items": [
+    {
+     "x": "Review meeting at 9 a.m."
+    },
+    {
+     "x": "Replaying every possible slip"
+    },
+    {
+     "x": "Cannot stop checking her slides"
+    }
+   ],
+   "nar": "Nora has her first big review at nine tomorrow. She keeps replaying every possible slip, and she cannot stop checking her slides."
+  },
+  {
+   "l": "Problem",
+   "t": "big",
+   "big": "1 meeting",
+   "cap": "is taking up her entire mind",
+   "sub": "It feels like the whole world.",
+   "nar": "One meeting has swallowed her whole mind. From where she sits, it feels like the entire world depends on it."
+  },
+  {
+   "l": "Apply",
+   "t": "list",
+   "num": 1,
+   "cap": "Zoom out, step by step",
+   "items": [
+    {
+     "x": "This week: a busy Tuesday"
+    },
+    {
+     "x": "This year: one review of many"
+    },
+    {
+     "x": "This life: a small dot in a long story"
+    }
+   ],
+   "nar": "Marcus Aurelius suggested looking from above. This week, it is one busy day. This year, it is one review of many. In a lifetime, it is a small dot."
+  },
+  {
+   "l": "Result",
+   "t": "list",
+   "cap": "That night",
+   "items": [
+    {
+     "x": "Checked the slides one last time",
+     "s": "done"
+    },
+    {
+     "x": "Went for a short walk",
+     "s": "done"
+    },
+    {
+     "x": "Slept six hours",
+     "s": "done"
+    }
+   ],
+   "nar": "The meeting still matters, but now at its true size. She checks her slides once more, takes a walk, and sleeps."
+  }
+ ]
+}

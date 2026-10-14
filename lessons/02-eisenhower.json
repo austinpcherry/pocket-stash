@@ -1,0 +1,91 @@
+{
+ "n": 2,
+ "id": "eisenhower",
+ "topic": "Focus",
+ "secs": 25,
+ "title": "Eisenhower matrix",
+ "src": "Dwight D. Eisenhower, 1954 speech, popularized by Stephen Covey",
+ "idea": "Sort tasks by urgent and important. The important but not urgent box is where your best work lives.",
+ "apply": "Draw four boxes tonight and place tomorrow's tasks. Block calendar time for the important, not urgent box before the day fills up.",
+ "remind": "Urgent is loud. Important is quiet. Protect the quiet.",
+ "motif": "eis",
+ "who": "Jordan, a project manager with a loud Monday.",
+ "scenes": [
+  {
+   "l": "Setup",
+   "t": "list",
+   "cap": "Jordan's Monday",
+   "items": [
+    {
+     "x": "Fix the client demo bug"
+    },
+    {
+     "x": "Plan the quarterly roadmap"
+    },
+    {
+     "x": "Reply to the vendor email"
+    },
+    {
+     "x": "Reorganize the shared drive"
+    }
+   ],
+   "nar": "Jordan is a project manager with four tasks on his Monday list, and every one of them feels urgent."
+  },
+  {
+   "l": "Problem",
+   "t": "list",
+   "cap": "What he actually did",
+   "items": [
+    {
+     "x": "Replied to the vendor",
+     "s": "done"
+    },
+    {
+     "x": "Answered chat pings",
+     "s": "done"
+    },
+    {
+     "x": "Fixed the demo bug",
+     "s": "done"
+    },
+    {
+     "x": "Quarterly roadmap",
+     "s": "dim"
+    }
+   ],
+   "nar": "He answers whatever is loudest. The quarterly roadmap, the work that matters most, keeps sliding to next week."
+  },
+  {
+   "l": "Apply",
+   "t": "quad",
+   "hot": 1,
+   "items": [
+    {
+     "x": "Demo bug",
+     "q": 0
+    },
+    {
+     "x": "Roadmap",
+     "q": 1
+    },
+    {
+     "x": "Vendor email",
+     "q": 2
+    },
+    {
+     "x": "Reorganize drive",
+     "q": 3
+    }
+   ],
+   "nar": "Now he sorts first. The bug goes in do now. The roadmap goes in plan, with a calendar block. The email goes to a teammate. The drive gets dropped."
+  },
+  {
+   "l": "Result",
+   "t": "big",
+   "big": "Thu",
+   "cap": "Roadmap shared before anyone asked",
+   "sub": "It had a protected block, so it got done.",
+   "nar": "By Thursday the roadmap is done, before anyone had to ask for it."
+  }
+ ]
+}

@@ -1,0 +1,85 @@
+{
+ "n": 30,
+ "id": "sisyphus",
+ "topic": "Other thinkers",
+ "secs": 25,
+ "title": "Imagine Sisyphus happy",
+ "src": "Camus, The Myth of Sisyphus",
+ "idea": "Camus pictured Sisyphus pushing his boulder forever and concluded that he could find meaning in the effort itself.",
+ "apply": "Pick one repetitive task you dislike and find one thing in it you can do well or on purpose.",
+ "remind": "Find meaning in the push, not only the summit.",
+ "motif": "hill",
+ "who": "Dee, who dreads the weekly report she must file.",
+ "scenes": [
+  {
+   "l": "Setup",
+   "t": "list",
+   "cap": "Dee's Friday",
+   "items": [
+    {
+     "x": "Pull the same numbers"
+    },
+    {
+     "x": "Build the same report"
+    },
+    {
+     "x": "Send. Repeat next week."
+    }
+   ],
+   "nar": "Every Friday, Dee pulls the same numbers, builds the same report, and sends it. Then she does it again next week."
+  },
+  {
+   "l": "Problem",
+   "t": "chat",
+   "msgs": [
+    {
+     "f": "think",
+     "s": "bad",
+     "x": "This is pointless."
+    },
+    {
+     "f": "sys",
+     "x": "Dread starts every Thursday night."
+    }
+   ],
+   "nar": "To her it is pointless, a boulder rolled up and down. Dread starts every Thursday night."
+  },
+  {
+   "l": "Apply",
+   "t": "list",
+   "cap": "Camus: find the meaning in the push",
+   "items": [
+    {
+     "x": "Make it the cleanest report in the company"
+    },
+    {
+     "x": "Time herself and beat last week"
+    },
+    {
+     "x": "Add one useful insight each time"
+    }
+   ],
+   "nar": "Camus imagined Sisyphus happy. Dee cannot change the task, so she changes her relationship to it. She aims for a clean report, beats her time, and adds one insight."
+  },
+  {
+   "l": "Result",
+   "t": "list",
+   "cap": "A month later",
+   "items": [
+    {
+     "x": "Done in 20 minutes, not 60",
+     "s": "done"
+    },
+    {
+     "x": "Manager quotes her insights",
+     "s": "done"
+    },
+    {
+     "x": "Dread is gone",
+     "s": "done"
+    }
+   ],
+   "nar": "A month later it takes twenty minutes, her manager quotes her insights, and the dread is gone. The meaning was in the push."
+  }
+ ]
+}

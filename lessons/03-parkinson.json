@@ -1,0 +1,85 @@
+{
+ "n": 3,
+ "id": "parkinson",
+ "topic": "Focus",
+ "secs": 15,
+ "title": "Parkinson's law",
+ "src": "C. Northcote Parkinson, The Economist, 1955",
+ "idea": "Work expands to fill the time available for it.",
+ "apply": "Cut the deadline in half on one task this week and see what really gets done.",
+ "remind": "Shorter deadline, same task.",
+ "motif": "park",
+ "who": "Lena, who has two weeks to write a report.",
+ "scenes": [
+  {
+   "l": "Setup",
+   "t": "big",
+   "big": "14 days",
+   "cap": "to write one report",
+   "sub": "It needs about two days of real work.",
+   "nar": "Lena gets two weeks to write a report that needs about two days of real work."
+  },
+  {
+   "l": "Problem",
+   "t": "bars",
+   "cap": "Where the 14 days went",
+   "max": 50,
+   "rows": [
+    {
+     "l": "Researching again",
+     "v": 40,
+     "t": "40%"
+    },
+    {
+     "l": "Fiddling with the template",
+     "v": 25,
+     "t": "25%"
+    },
+    {
+     "l": "Waiting to feel inspired",
+     "v": 20,
+     "t": "20%"
+    },
+    {
+     "l": "Actually writing",
+     "v": 15,
+     "t": "15%",
+     "hot": 1
+    }
+   ],
+   "nar": "With two weeks, the work stretches. She researches again, tweaks the template, waits for inspiration, and writes in a panic on day thirteen."
+  },
+  {
+   "l": "Apply",
+   "t": "split",
+   "blocks": [
+    {
+     "h": "Due in 14 days",
+     "tone": "bad",
+     "lose": 1,
+     "items": [
+      "Plenty of time, so no urgency"
+     ]
+    },
+    {
+     "h": "Due in 3 days",
+     "tone": "good",
+     "items": [
+      "Today: the outline",
+      "Tomorrow: the draft",
+      "Day three: the polish"
+     ]
+    }
+   ],
+   "nar": "So she sets her own deadline of three days. The outline today, the draft tomorrow, a polish on day three."
+  },
+  {
+   "l": "Result",
+   "t": "big",
+   "big": "3 days",
+   "cap": "Report sent. Same quality.",
+   "sub": "The work took as long as she gave it.",
+   "nar": "The report goes out on day three. The work took exactly as long as she gave it."
+  }
+ ]
+}

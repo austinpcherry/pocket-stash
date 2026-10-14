@@ -1,0 +1,100 @@
+{
+ "n": 11,
+ "id": "control",
+ "topic": "Stoicism",
+ "secs": 25,
+ "title": "Dichotomy of control",
+ "src": "Epictetus, Enchiridion 1",
+ "idea": "Some things are up to you: your judgments, choices, and effort. Everything else is not, including outcomes and other people.",
+ "apply": "When something worries you, split it into two lists. Act on the first and let go of the second.",
+ "remind": "Do your part. Release the outcome.",
+ "motif": "ctl",
+ "who": "Leo, a salesperson waiting on a client's decision.",
+ "scenes": [
+  {
+   "l": "Setup",
+   "t": "list",
+   "cap": "On Leo's mind before Friday",
+   "items": [
+    {
+     "x": "The client's decision"
+    },
+    {
+     "x": "Whether budgets get cut"
+    },
+    {
+     "x": "How good his demo is"
+    },
+    {
+     "x": "His follow-up email"
+    }
+   ],
+   "nar": "Leo has a big pitch on Friday. His mind is full of things: the client's decision, the budget, his demo, and his follow-up."
+  },
+  {
+   "l": "Problem",
+   "t": "list",
+   "cap": "What keeps him awake",
+   "items": [
+    {
+     "x": "Will they say yes?",
+     "s": "bad"
+    },
+    {
+     "x": "Will the budget be cut?",
+     "s": "bad"
+    },
+    {
+     "x": "Rehearsing the demo",
+     "s": "dim"
+    }
+   ],
+   "nar": "He loses sleep over whether they will say yes and whether budgets get cut. Those are not his to decide, so the worry changes nothing."
+  },
+  {
+   "l": "Apply",
+   "t": "split",
+   "blocks": [
+    {
+     "h": "Not up to me",
+     "tone": "bad",
+     "lose": 1,
+     "items": [
+      "The client's decision",
+      "The budget"
+     ]
+    },
+    {
+     "h": "Up to me",
+     "tone": "good",
+     "items": [
+      "My preparation",
+      "My follow-up",
+      "How I treat people"
+     ]
+    }
+   ],
+   "nar": "So he sorts them into two lists. The decision and the budget are not up to him. His preparation, his follow-up, and his conduct are."
+  },
+  {
+   "l": "Result",
+   "t": "list",
+   "cap": "Where his energy goes now",
+   "items": [
+    {
+     "x": "Demo rehearsed twice",
+     "s": "done"
+    },
+    {
+     "x": "Thoughtful follow-up sent",
+     "s": "done"
+    },
+    {
+     "x": "Slept well on Thursday",
+     "s": "done"
+    }
+   ],
+   "nar": "He puts his energy into the second list. He rehearses twice, sends a thoughtful follow-up, and sleeps well. Whatever they decide, he did his part."
+  }
+ ]
+}

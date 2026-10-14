@@ -1,0 +1,98 @@
+{
+ "n": 26,
+ "id": "pendulum",
+ "topic": "Schopenhauer",
+ "secs": 25,
+ "title": "Pain and boredom",
+ "src": "Schopenhauer, The World as Will and Representation, par. 57",
+ "idea": "Schopenhauer said life swings like a pendulum between pain and boredom. Wanting hurts, and getting it soon goes flat.",
+ "apply": "When a goal is reached and the glow fades, expect it. Line up the next meaningful thing before boredom arrives.",
+ "remind": "Expect the swing. Plan the next worthwhile thing.",
+ "motif": "pend",
+ "who": "Ravi, who just got the promotion he wanted for years.",
+ "scenes": [
+  {
+   "l": "Setup",
+   "t": "list",
+   "cap": "Ravi's last two years",
+   "items": [
+    {
+     "x": "Wanting the promotion",
+     "s": "bad"
+    },
+    {
+     "x": "Getting it",
+     "s": "done"
+    },
+    {
+     "x": "Three weeks later: flat",
+     "s": "dim"
+    }
+   ],
+   "nar": "Ravi wanted a promotion for two years. He finally gets it, and three weeks later, it already feels flat."
+  },
+  {
+   "l": "Problem",
+   "t": "bars",
+   "cap": "How it felt (illustrative)",
+   "max": 100,
+   "rows": [
+    {
+     "l": "Wanting",
+     "v": 80,
+     "t": "Pain"
+    },
+    {
+     "l": "Got it",
+     "v": 95,
+     "t": "High",
+     "hot": 1
+    },
+    {
+     "l": "Week 3",
+     "v": 15,
+     "t": "Bored"
+    }
+   ],
+   "nar": "Schopenhauer described life as a pendulum between pain and boredom. When we want something it hurts, and when we get it, it goes flat."
+  },
+  {
+   "l": "Apply",
+   "t": "list",
+   "cap": "Ravi plans ahead",
+   "items": [
+    {
+     "x": "Name the next real challenge",
+     "s": "hot"
+    },
+    {
+     "x": "Learn the new team deeply"
+    },
+    {
+     "x": "Start the project he postponed"
+    }
+   ],
+   "nar": "So he expects the swing. Before the boredom arrives, he picks the next challenge, the one that is worth the wanting."
+  },
+  {
+   "l": "Result",
+   "t": "list",
+   "cap": "Three months later",
+   "items": [
+    {
+     "x": "Leads a new project",
+     "s": "done"
+    },
+    {
+     "x": "Mentors two juniors",
+     "s": "done"
+    },
+    {
+     "x": "No flat stretch",
+     "s": "done"
+    }
+   ],
+   "nar": "Three months on, he leads a new project and mentors two juniors. The flat stretch never arrives."
+  }
+ ]
+}

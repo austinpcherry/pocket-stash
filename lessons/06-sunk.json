@@ -1,0 +1,85 @@
+{
+ "n": 6,
+ "id": "sunk",
+ "topic": "Decisions",
+ "secs": 20,
+ "title": "Sunk cost",
+ "src": "Arkes and Blumer, The Psychology of Sunk Cost, 1985",
+ "idea": "Time and money already spent and gone should not decide what you do next.",
+ "apply": "Ask: if I were starting today with nothing spent, would I choose this? If the answer is no, stop.",
+ "remind": "What is spent is gone. Choose from here.",
+ "motif": "sunk",
+ "who": "Sam, eight months into an app nobody pays for.",
+ "scenes": [
+  {
+   "l": "Setup",
+   "t": "big",
+   "big": "$3,000",
+   "count": {
+    "from": 0,
+    "to": 3000,
+    "pre": "$"
+   },
+   "cap": "and 8 months spent on an app",
+   "nar": "Sam has spent eight months and three thousand dollars building an app."
+  },
+  {
+   "l": "Problem",
+   "t": "list",
+   "cap": "What the numbers say",
+   "items": [
+    {
+     "x": "12 people tried it"
+    },
+    {
+     "x": "2 came back"
+    },
+    {
+     "x": "0 paid",
+     "s": "bad"
+    }
+   ],
+   "nar": "Twelve people tried it. Two came back. Nobody paid. Still, Sam keeps going, because quitting would waste everything already spent."
+  },
+  {
+   "l": "Apply",
+   "t": "split",
+   "blocks": [
+    {
+     "h": "Keep going for the $3,000",
+     "tone": "bad",
+     "lose": 1,
+     "items": [
+      "The money is gone either way"
+     ]
+    },
+    {
+     "h": "Starting today with nothing spent, would I choose this?",
+     "tone": "good",
+     "items": []
+    }
+   ],
+   "nar": "So Sam asks a different question. If I were starting today with nothing spent, would I choose this project?"
+  },
+  {
+   "l": "Result",
+   "t": "list",
+   "cap": "Sam's decision",
+   "items": [
+    {
+     "x": "Honest answer: no",
+     "s": "bad"
+    },
+    {
+     "x": "Shelve the app",
+     "s": "done"
+    },
+    {
+     "x": "Talk to 10 customers",
+     "s": "done"
+    }
+   ],
+   "nar": "The honest answer is no. Sam shelves the app and spends the next month talking to customers about what they actually need."
+  }
+ ]
+}

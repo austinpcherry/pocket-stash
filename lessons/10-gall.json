@@ -1,0 +1,92 @@
+{
+ "n": 10,
+ "id": "gall",
+ "topic": "Thinking",
+ "secs": 20,
+ "title": "Gall's law",
+ "src": "John Gall, Systemantics, 1975",
+ "idea": "A complex system that works grew out of a simple system that worked.",
+ "apply": "Build the smallest version that works end to end, use it, then add one piece at a time.",
+ "remind": "Start simple. Let it grow.",
+ "motif": "gall",
+ "who": "Nia, planning a project tool for her whole company.",
+ "scenes": [
+  {
+   "l": "Setup",
+   "t": "list",
+   "cap": "Nia's plan, all at once",
+   "items": [
+    {
+     "x": "Tasks"
+    },
+    {
+     "x": "Calendar"
+    },
+    {
+     "x": "Team chat"
+    },
+    {
+     "x": "Reports"
+    },
+    {
+     "x": "Billing"
+    },
+    {
+     "x": "Mobile app"
+    }
+   ],
+   "nar": "Nia wants a project tool for her company. Her plan has tasks, calendar, chat, reports, billing, and a mobile app, all at once."
+  },
+  {
+   "l": "Problem",
+   "t": "big",
+   "big": "0 of 6",
+   "cap": "features working after six months",
+   "sub": "Every part waits on the others.",
+   "nar": "Six months later, nothing works end to end. Every part depends on parts that are not finished."
+  },
+  {
+   "l": "Apply",
+   "t": "list",
+   "num": 1,
+   "cap": "Restart small",
+   "items": [
+    {
+     "x": "Version 1: a shared task list",
+     "s": "done"
+    },
+    {
+     "x": "Version 2: due dates"
+    },
+    {
+     "x": "Version 3: reminders"
+    }
+   ],
+   "nar": "So she restarts small. Version one is only a shared task list, and her team starts using it the next day."
+  },
+  {
+   "l": "Result",
+   "t": "list",
+   "cap": "What grew",
+   "items": [
+    {
+     "x": "Week 1: task list",
+     "s": "done"
+    },
+    {
+     "x": "Week 2: due dates",
+     "s": "done"
+    },
+    {
+     "x": "Week 3: reminders",
+     "s": "done"
+    },
+    {
+     "x": "Week 6: calendar view",
+     "s": "done"
+    }
+   ],
+   "nar": "Each new piece lands on something that already works. By week six it even has a calendar view."
+  }
+ ]
+}

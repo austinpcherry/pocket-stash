@@ -1,0 +1,84 @@
+{
+ "n": 7,
+ "id": "hanlon",
+ "topic": "Relationships",
+ "secs": 20,
+ "title": "Hanlon's razor",
+ "src": "Attributed to Robert J. Hanlon, Murphy's Law Book Two, 1980",
+ "idea": "Never attribute to malice what carelessness, stress, or a bad day can explain.",
+ "apply": "When someone slights you, write the most boring explanation first. Then ask one calm question before reacting.",
+ "remind": "Assume the mistake first. Ask before you accuse.",
+ "motif": "duel",
+ "who": "Nina, waiting on a reply from a coworker.",
+ "scenes": [
+  {
+   "l": "Setup",
+   "t": "chat",
+   "cap": "Messages with Omar",
+   "msgs": [
+    {
+     "f": "me",
+     "x": "Can you send the report by Tuesday?"
+    },
+    {
+     "f": "sys",
+     "x": "Seen Tuesday 9:02 AM"
+    },
+    {
+     "f": "sys",
+     "x": "Thursday. Still no reply."
+    }
+   ],
+   "nar": "Nina asks her coworker Omar for a report by Tuesday. It is Thursday, and he still has not answered."
+  },
+  {
+   "l": "Problem",
+   "t": "chat",
+   "msgs": [
+    {
+     "f": "think",
+     "s": "bad",
+     "x": "He is ignoring me on purpose."
+    },
+    {
+     "f": "me",
+     "s": "draft",
+     "x": "Wow. Thanks for nothing."
+    }
+   ],
+   "nar": "Her first thought is that he is ignoring her on purpose. She starts typing an angry reply."
+  },
+  {
+   "l": "Apply",
+   "t": "chat",
+   "msgs": [
+    {
+     "f": "think",
+     "s": "good",
+     "x": "Maybe he is buried and forgot."
+    },
+    {
+     "f": "me",
+     "x": "Hey Omar, did my report request get buried? Just need it by Monday."
+    }
+   ],
+   "nar": "Then she tries the boring explanation. He is probably swamped and forgot. So she sends one friendly question instead."
+  },
+  {
+   "l": "Result",
+   "t": "chat",
+   "cap": "Messages with Omar",
+   "msgs": [
+    {
+     "f": "them",
+     "x": "Sorry!! Totally buried. Sending it now."
+    },
+    {
+     "f": "them",
+     "x": "Report attached."
+    }
+   ],
+   "nar": "Omar answers within minutes. The message had simply been lost under a pile of others."
+  }
+ ]
+}

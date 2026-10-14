@@ -1,0 +1,103 @@
+{
+ "n": 17,
+ "id": "inner",
+ "topic": "Schopenhauer",
+ "secs": 25,
+ "title": "What you are, not what you have",
+ "src": "Schopenhauer, The Wisdom of Life",
+ "idea": "Schopenhauer ranked what a person is, meaning health, mind, and character, above what they own or how others see them. Only the first goes everywhere with you.",
+ "apply": "Spend your next free hour on something that builds you, like sleep, exercise, or learning, instead of something you can buy.",
+ "remind": "Invest in who you are, not only in what you own.",
+ "motif": "orb",
+ "who": "Dana, who thinks happiness is the next upgrade.",
+ "scenes": [
+  {
+   "l": "Setup",
+   "t": "list",
+   "cap": "Dana's plan for happiness",
+   "items": [
+    {
+     "x": "A bigger apartment"
+    },
+    {
+     "x": "A senior title"
+    },
+    {
+     "x": "A nicer car"
+    }
+   ],
+   "nar": "Dana believes happiness is a bigger apartment, a senior title, and a nicer car."
+  },
+  {
+   "l": "Problem",
+   "t": "bars",
+   "cap": "Her glow after a win (illustrative)",
+   "max": 100,
+   "rows": [
+    {
+     "l": "Week 1",
+     "v": 90,
+     "t": "High",
+     "hot": 1
+    },
+    {
+     "l": "Week 4",
+     "v": 55,
+     "t": "Fading"
+    },
+    {
+     "l": "Week 12",
+     "v": 25,
+     "t": "Gone"
+    }
+   ],
+   "nar": "Each win feels great for a few weeks, then the feeling fades, and she wants the next thing."
+  },
+  {
+   "l": "Apply",
+   "t": "split",
+   "blocks": [
+    {
+     "h": "What I have",
+     "tone": "",
+     "lose": 1,
+     "items": [
+      "Apartment",
+      "Title",
+      "Car"
+     ]
+    },
+    {
+     "h": "What I am",
+     "tone": "good",
+     "items": [
+      "Health and energy",
+      "A curious, calm mind",
+      "Good character"
+     ]
+    }
+   ],
+   "nar": "Schopenhauer argued that what you are matters more than what you have. Health, a good mind, and good character go with you everywhere."
+  },
+  {
+   "l": "Result",
+   "t": "list",
+   "cap": "Dana's new routine",
+   "items": [
+    {
+     "x": "Walks every morning",
+     "s": "done"
+    },
+    {
+     "x": "Reads for an hour each night",
+     "s": "done"
+    },
+    {
+     "x": "Keeps the old car another year",
+     "s": "done"
+    }
+   ],
+   "nar": "Dana invests in herself. Morning walks, better sleep, an hour of reading. Her mood stops depending on the next purchase."
+  }
+ ]
+}

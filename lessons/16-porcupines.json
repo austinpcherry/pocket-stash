@@ -1,0 +1,82 @@
+{
+ "n": 16,
+ "id": "porcupines",
+ "topic": "Schopenhauer",
+ "secs": 25,
+ "title": "The porcupine dilemma",
+ "src": "Schopenhauer, Parerga and Paralipomena",
+ "idea": "Close to others we get warmth, but also pricked by their sharp edges. The answer is a distance where you can bear each other.",
+ "apply": "If a relationship keeps getting prickly, change the dose: shorter visits and more space, then more warmth.",
+ "remind": "Stay close enough for warmth, far enough to avoid the spikes.",
+ "motif": "hogs",
+ "who": "Elena, who loves her sister but clashes with her on long visits.",
+ "scenes": [
+  {
+   "l": "Setup",
+   "t": "big",
+   "big": "3 days",
+   "cap": "is when Elena and her sister start to clash",
+   "sub": "They love each other. That is the puzzle.",
+   "nar": "Elena loves her sister Mara, but after three days together, they start to clash."
+  },
+  {
+   "l": "Problem",
+   "t": "split",
+   "blocks": [
+    {
+     "h": "Too close",
+     "tone": "bad",
+     "items": [
+      "Small irritations grow",
+      "Sharp words fly"
+     ]
+    },
+    {
+     "h": "Too far",
+     "tone": "",
+     "items": [
+      "Cold and lonely",
+      "Months without a call"
+     ]
+    }
+   ],
+   "nar": "Schopenhauer imagined porcupines in winter. Huddled too close, they prick each other. Too far apart, they freeze."
+  },
+  {
+   "l": "Apply",
+   "t": "split",
+   "blocks": [
+    {
+     "h": "A distance that works",
+     "tone": "good",
+     "items": [
+      "A weekly call",
+      "Visits of two days",
+      "Space afterward"
+     ]
+    }
+   ],
+   "nar": "Like the porcupines, they find a distance they can both bear. A weekly call, visits that last two days, and time apart afterward."
+  },
+  {
+   "l": "Result",
+   "t": "list",
+   "cap": "A year later",
+   "items": [
+    {
+     "x": "Far fewer fights",
+     "s": "done"
+    },
+    {
+     "x": "Visits both look forward to",
+     "s": "done"
+    },
+    {
+     "x": "Closeness that lasts",
+     "s": "done"
+    }
+   ],
+   "nar": "The fights fade, and both look forward to visits. The warmth lasts because neither keeps getting pricked."
+  }
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "n": 19,
+ "id": "desires",
+ "topic": "Other thinkers",
+ "secs": 25,
+ "title": "Three kinds of desire",
+ "src": "Epicurus, Letter to Menoeceus",
+ "idea": "Epicurus sorted desires into natural and necessary, natural but optional, and vain. Peace comes from meeting the first and dropping the last.",
+ "apply": "Label your last five purchases as need, nice, or vain. Cut one vain habit this month.",
+ "remind": "Meet your needs. Enjoy simply. Drop the vain wants.",
+ "motif": "des",
+ "who": "Chloe, who earns well and still feels broke.",
+ "scenes": [
+  {
+   "l": "Setup",
+   "t": "list",
+   "cap": "Where Chloe's money goes",
+   "items": [
+    {
+     "x": "Rent and groceries"
+    },
+    {
+     "x": "Weekend dinners out"
+    },
+    {
+     "x": "A designer watch"
+    }
+   ],
+   "nar": "Chloe earns well, but she feels broke every month. She wonders where the money goes."
+  },
+  {
+   "l": "Problem",
+   "t": "bars",
+   "cap": "Her spending by kind (illustrative)",
+   "max": 50,
+   "rows": [
+    {
+     "l": "Needs",
+     "v": 35,
+     "t": "35%"
+    },
+    {
+     "l": "Nice to have",
+     "v": 40,
+     "t": "40%"
+    },
+    {
+     "l": "To impress",
+     "v": 25,
+     "t": "25%",
+     "hot": 1
+    }
+   ],
+   "nar": "Almost two thirds of it goes to things she did not need, and a quarter is spent just to impress."
+  },
+  {
+   "l": "Apply",
+   "t": "list",
+   "cap": "Epicurus's three kinds of desire",
+   "items": [
+    {
+     "x": "Necessary: food, shelter, friends",
+     "s": "hot"
+    },
+    {
+     "x": "Natural but optional: dinners out",
+     "s": "dim"
+    },
+    {
+     "x": "Vain: the designer watch",
+     "s": "bad"
+    }
+   ],
+   "nar": "Epicurus sorted desires into three kinds. Necessary ones, like food, shelter, and friends. Natural but optional ones. And vain ones that never satisfy."
+  },
+  {
+   "l": "Result",
+   "t": "list",
+   "cap": "Chloe, three months later",
+   "items": [
+    {
+     "x": "Friends over for dinner at home",
+     "s": "done"
+    },
+    {
+     "x": "Skipped the watch",
+     "s": "done"
+    },
+    {
+     "x": "Saved the difference",
+     "s": "done"
+    }
+   ],
+   "nar": "She keeps the necessary, enjoys the optional in moderation, and drops the vain. She feels richer on the same salary."
+  }
+ ]
+}

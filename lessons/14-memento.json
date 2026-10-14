@@ -1,0 +1,84 @@
+{
+ "n": 14,
+ "id": "memento",
+ "topic": "Stoicism",
+ "secs": 25,
+ "title": "Memento mori",
+ "src": "Seneca, On the Shortness of Life",
+ "idea": "Your time is limited and its end is uncertain. Remembering that sharpens what you choose to do with it.",
+ "apply": "Pick one thing from your someday list and put a date on it this week.",
+ "remind": "Time is limited. Do the important thing this week.",
+ "motif": "years",
+ "who": "Sofia, who keeps postponing a visit to her parents.",
+ "scenes": [
+  {
+   "l": "Setup",
+   "t": "list",
+   "cap": "Sofia's someday list",
+   "items": [
+    {
+     "x": "Visit Mom and Dad"
+    },
+    {
+     "x": "Learn the piano"
+    },
+    {
+     "x": "Write the book"
+    }
+   ],
+   "nar": "Sofia keeps a someday list. Visit her parents, learn the piano, write the book. Someday always feels far away."
+  },
+  {
+   "l": "Problem",
+   "t": "big",
+   "big": "4,000",
+   "cap": "weeks in an average life",
+   "sub": "About eighty years. Time is not endless.",
+   "nar": "An eighty year life is only about four thousand weeks. Time feels endless, but it is not."
+  },
+  {
+   "l": "Apply",
+   "t": "split",
+   "blocks": [
+    {
+     "h": "Someday",
+     "tone": "bad",
+     "lose": 1,
+     "items": [
+      "Always later"
+     ]
+    },
+    {
+     "h": "This week",
+     "tone": "good",
+     "items": [
+      "Call Dad tonight",
+      "Book the train for March",
+      "First piano lesson, Saturday"
+     ]
+    }
+   ],
+   "nar": "So she remembers that her time is limited, and moves items from someday to this week. A call tonight, a train booked, a first lesson."
+  },
+  {
+   "l": "Result",
+   "t": "list",
+   "cap": "By Sunday",
+   "items": [
+    {
+     "x": "Forty minute call with Dad",
+     "s": "done"
+    },
+    {
+     "x": "March visit booked",
+     "s": "done"
+    },
+    {
+     "x": "First piano lesson done",
+     "s": "done"
+    }
+   ],
+   "nar": "The call lasts forty minutes, and her father is thrilled. Remembering that time ends helped her use it."
+  }
+ ]
+}

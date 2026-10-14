@@ -1,0 +1,88 @@
+{
+ "n": 24,
+ "id": "discomfort",
+ "topic": "Stoicism",
+ "secs": 25,
+ "title": "Voluntary discomfort",
+ "src": "Seneca, Letters to Lucilius 18",
+ "idea": "Seneca advised setting aside days to live on coarse food and plain clothes, so that hardship loses its power to scare you.",
+ "apply": "Pick one small, safe discomfort this week, like a cold shower or a skipped meal, and notice that you handle it fine.",
+ "remind": "Practice a little hardship. Fear shrinks.",
+ "motif": "chill",
+ "who": "Ben, who dreads anything uncomfortable.",
+ "scenes": [
+  {
+   "l": "Setup",
+   "t": "list",
+   "cap": "Things Ben avoids",
+   "items": [
+    {
+     "x": "Cold rooms"
+    },
+    {
+     "x": "Skipping a meal"
+    },
+    {
+     "x": "Hard conversations"
+    }
+   ],
+   "nar": "Ben avoids anything uncomfortable. Cold rooms, a skipped meal, and above all hard conversations."
+  },
+  {
+   "l": "Problem",
+   "t": "chat",
+   "msgs": [
+    {
+     "f": "think",
+     "s": "bad",
+     "x": "I cannot handle that."
+    },
+    {
+     "f": "sys",
+     "x": "The avoided thing grows bigger each week."
+    }
+   ],
+   "nar": "He tells himself he cannot handle it. And the more he avoids, the bigger each of those things seems to grow."
+  },
+  {
+   "l": "Apply",
+   "t": "list",
+   "cap": "Seneca's small practice",
+   "items": [
+    {
+     "x": "Monday: two minutes of cold water",
+     "s": "done"
+    },
+    {
+     "x": "Wednesday: skip lunch, drink water",
+     "s": "done"
+    },
+    {
+     "x": "Friday: one honest, awkward talk",
+     "s": "hot"
+    }
+   ],
+   "nar": "So he borrows Seneca's practice. He starts with small, safe hardships on purpose. Cold water, a skipped lunch, and then one honest conversation."
+  },
+  {
+   "l": "Result",
+   "t": "list",
+   "cap": "A month later",
+   "items": [
+    {
+     "x": "Cold water no longer scares him",
+     "s": "done"
+    },
+    {
+     "x": "Hard talks get easier",
+     "s": "done"
+    },
+    {
+     "x": "He trusts himself more",
+     "s": "done"
+    }
+   ],
+   "nar": "A month later, he knows he can handle more than he thought. The fear shrank because he proved it wrong."
+  }
+ ]
+}

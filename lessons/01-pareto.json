@@ -1,0 +1,112 @@
+{
+ "n": 1,
+ "id": "pareto",
+ "topic": "Focus",
+ "secs": 20,
+ "title": "Pareto principle",
+ "src": "Vilfredo Pareto, popularized by Joseph Juran",
+ "idea": "Roughly 80% of results come from 20% of causes. A few inputs do most of the work.",
+ "apply": "List everything on your plate, circle the two items that move the outcome, and do those first.",
+ "remind": "Find the two things that matter. Do those first.",
+ "motif": "bars",
+ "who": "Maya, a freelance designer with five clients.",
+ "scenes": [
+  {
+   "l": "Setup",
+   "t": "bars",
+   "cap": "Hours spent per client",
+   "max": 50,
+   "rows": [
+    {
+     "l": "Client A",
+     "v": 20,
+     "t": "20%"
+    },
+    {
+     "l": "Client B",
+     "v": 20,
+     "t": "20%"
+    },
+    {
+     "l": "Client C",
+     "v": 20,
+     "t": "20%"
+    },
+    {
+     "l": "Client D",
+     "v": 20,
+     "t": "20%"
+    },
+    {
+     "l": "Client E",
+     "v": 20,
+     "t": "20%"
+    }
+   ],
+   "nar": "Maya is a freelance designer with five clients. She gives each one the same amount of time."
+  },
+  {
+   "l": "Problem",
+   "t": "bars",
+   "cap": "Income per client",
+   "max": 50,
+   "rows": [
+    {
+     "l": "Client A",
+     "v": 46,
+     "t": "46%",
+     "hot": 1
+    },
+    {
+     "l": "Client B",
+     "v": 34,
+     "t": "34%",
+     "hot": 1
+    },
+    {
+     "l": "Client C",
+     "v": 9,
+     "t": "9%"
+    },
+    {
+     "l": "Client D",
+     "v": 6,
+     "t": "6%"
+    },
+    {
+     "l": "Client E",
+     "v": 5,
+     "t": "5%"
+    }
+   ],
+   "nar": "But two clients bring in eighty percent of her income. The other three bring in twenty."
+  },
+  {
+   "l": "Apply",
+   "t": "list",
+   "cap": "Her new week",
+   "items": [
+    {
+     "x": "Mon: strategy session, Client A",
+     "s": "hot"
+    },
+    {
+     "x": "Tue: proposal for Client B",
+     "s": "hot"
+    },
+    {
+     "x": "Thu: batch edits for C, D and E"
+    }
+   ],
+   "nar": "So she gives those two her best hours first, and batches the other three into one afternoon."
+  },
+  {
+   "l": "Result",
+   "t": "big",
+   "big": "80%",
+   "cap": "of her income now gets her sharpest hours",
+   "sub": "Same forty hours. Better spent.",
+   "nar": "The same forty hours now go mostly where the money is, and her best clients start renewing early."
+  }
+ ]
+}
