@@ -16,7 +16,9 @@
    "actors": {
     "leo": {
      "x": 43,
-     "pose": "think"
+     "pose": "think",
+     "in": -8,
+     "hair": "spike"
     }
    },
    "props": {
@@ -85,7 +87,8 @@
       -0.8,
       0,
       1
-     ]
+     ],
+     "hair": "spike"
     }
    },
    "props": {
@@ -122,11 +125,18 @@
      "banner",
      "Worry changes nothing",
      "bad"
+    ],
+    [
+     0.8,
+     "leo",
+     "pose",
+     "sleep"
     ]
    ],
    "l": "Problem",
    "t": "act",
-   "nar": "He loses sleep over whether they will say yes and whether budgets get cut. Those are not his to decide, so the worry changes nothing."
+   "nar": "He loses sleep over whether they will say yes and whether budgets get cut. Those are not his to decide, so the worry changes nothing.",
+   "bg": "night"
   },
   {
    "cap": "Two lists",
@@ -252,7 +262,8 @@
       0.9,
       0,
       1
-     ]
+     ],
+     "hair": "spike"
     }
    },
    "props": {

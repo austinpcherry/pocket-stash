@@ -17,7 +17,9 @@
     "pri": {
      "x": 30,
      "pose": "hold",
-     "col": "mint"
+     "col": "mint",
+     "in": -10,
+     "hair": "bun"
     }
    },
    "props": {
@@ -63,7 +65,8 @@
     "pri": {
      "x": 30,
      "pose": "stand",
-     "col": "mint"
+     "col": "mint",
+     "hair": "bun"
     }
    },
    "props": {
@@ -125,7 +128,8 @@
     "pri": {
      "x": 30,
      "pose": "think",
-     "col": "mint"
+     "col": "mint",
+     "hair": "bun"
     }
    },
    "props": {
@@ -192,7 +196,8 @@
       0.9,
       0,
       1
-     ]
+     ],
+     "hair": "bun"
     }
    },
    "props": {

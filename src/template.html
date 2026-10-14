@@ -348,7 +348,8 @@ h1{font-family:var(--f-display);font-weight:800;font-size:clamp(32px,7vw,48px);l
 @keyframes kShrink{0%,30%{transform:scaleX(1)}60%,100%{transform:scaleX(.4)}}
 .m-hab{display:flex;align-items:flex-end;justify-content:center;gap:2.4cqw;padding-bottom:22cqh}
 .m-hab i{width:7cqw;border-radius:1cqw;background:var(--hi);opacity:0;animation:kShow2 7s var(--d,0s) infinite}
-.actw{width:100%;display:flex;justify-content:center}.actw svg{width:100%;height:auto;max-height:100%;display:block}
+.actw{animation:actIn .5s ease-out both;width:100%;display:flex;justify-content:center}.actw svg{width:100%;height:auto;max-height:100%;display:block}
+@keyframes actIn{from{opacity:0;transform:scale(.97)}to{opacity:1;transform:none}}
 @media (prefers-reduced-motion:reduce){.tile *,.pl-stage *{animation:none!important}}
 </style>
 
