@@ -20,3 +20,6 @@ Short, narrated ideas worth keeping. Each lesson is one JSON file in `lessons/`.
 
 ## Data
 Stash, streak and sound settings live in each person's own browser. Nothing is sent anywhere.
+
+## How updates reach people
+Pushing to `main` rebuilds and republishes the site automatically (about 2 minutes). Installed copies pick up the new version in the background and show it the next time the app is opened. Only new narration files are downloaded. If you re-render an existing line, bump `AUDIO_VERSION` in `tools/build.py`.

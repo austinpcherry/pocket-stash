@@ -5,6 +5,7 @@ import json,glob,os,re,sys,hashlib,shutil,subprocess
 A=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(A)
 VOICES={'bella':1,'michael':6}
+AUDIO_VERSION=1  # bump only if you re-render an existing narration line, so devices re-download audio
 TEMPLATES={'list','chat','quad','bars','split','big','rem'}
 LABELS=['Setup','Problem','Apply','Result']
 tpl=open('src/template.html',encoding='utf-8').read()
@@ -87,17 +88,20 @@ h=hashlib.sha1(html.encode()).hexdigest()[:10]
 audio=sorted('audio/%s/%s.mp3'%(v,l['key']) for v in VOICES for l in lines)
 core=['./','index.html','manifest.webmanifest','icon-192.png','icon-512.png']
 sw="""const V='stash-%s';
+const A='stash-audio-%s';
 const CORE=%s;
 const AUDIO=%s;
-self.addEventListener('install',e=>{e.waitUntil(caches.open(V).then(c=>c.addAll(CORE).then(()=>{AUDIO.reduce((p,u)=>p.then(()=>c.add(u).catch(()=>0)),Promise.resolve())})).then(()=>self.skipWaiting()))});
-self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k!==V).map(k=>caches.delete(k)))).then(()=>self.clients.claim()))});
+self.addEventListener('install',e=>{e.waitUntil(caches.open(V).then(c=>c.addAll(CORE)).then(()=>self.skipWaiting()));
+  e.waitUntil(caches.open(A).then(async c=>{for(const u of AUDIO){if(!(await c.match(u)))await c.add(u).catch(()=>0)}}))});
+self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k!==V&&k!==A).map(k=>caches.delete(k)))).then(()=>self.clients.claim()))});
 self.addEventListener('fetch',e=>{
   const r=e.request;if(r.method!=='GET')return;
+  const isAudio=new URL(r.url).pathname.includes('/audio/');
   e.respondWith(caches.match(r).then(hit=>hit||fetch(r).then(res=>{
-    if(res.ok&&new URL(r.url).origin===location.origin){const cp=res.clone();caches.open(V).then(c=>c.put(r,cp))}
+    if(res.ok&&new URL(r.url).origin===location.origin){const cp=res.clone();caches.open(isAudio?A:V).then(c=>c.put(r,cp))}
     return res}).catch(()=>caches.match('index.html'))));
 });
-"""%(h,json.dumps(core),json.dumps(audio))
+"""%(h,AUDIO_VERSION,json.dumps(core),json.dumps(audio))
 open('dist/sw.js','w').write(sw)
 open('dist/.nojekyll','w').write('')
 tot=sum(os.path.getsize(os.path.join(dp,f)) for dp,_,fs in os.walk('dist') for f in fs)
